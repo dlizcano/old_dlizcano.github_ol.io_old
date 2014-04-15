@@ -1,22 +1,22 @@
-title:            Site Title
-description:      Describe your website.
+title:            Diego J. Lizcano
+description:      Diego J. Lizcano personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://dlizcano.github.io
 disqus_shortname: 
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Diego J. Lizcano
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  bio:            "Biologist, Mammal ecology and conservation, R and Linux fan"
+  email:          dj.lizcano@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter:  https://twitter.com/dlizcano      
+  facebook:  https://www.facebook.com/djlizcano     
+  github:   https://github.com/dlizcano      
   stackoverflow: 
-  linkedin:       
-  instagram:      
+  linkedin:   http://www.linkedin.com/in/lizcano/     
+  500px:  http://500px.com/dlizcano    
   lastfm:         
   tumblr: 
   pinterest: 
@@ -24,7 +24,7 @@ owner:
   steam: 
   dribbble: 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus: https://plus.google.com/u/0/+DiegoJLizcano/
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   

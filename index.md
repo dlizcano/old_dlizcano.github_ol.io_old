@@ -2,8 +2,8 @@
 layout: page
 permalink: /index/
 title: "index"
-modified: 2014-04-15 16:36
-tags: [tapir, R, stats, Lizcano]
+modified: 2014-04-15 16:55
+tags: [Lizcano, Tapir, danta, Paramo, Colombia, R]
 image:
   feature: 
   credit: 
