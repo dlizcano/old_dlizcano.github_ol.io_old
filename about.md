@@ -12,7 +12,7 @@ image:
   creditlink: http://500px.com/dlizcano
 ---
 
-I am Biologist interested in mammal ecology and conservation. I have extensive field experience working in the tropics. Recently I moved to the US with [my wife](http://www.clfs.umd.edu/biology/faganlab/people/alvarez.html) I enjoy learn about R and computers. I am an avid photographer. 
+I am Biologist interested in mammal ecology and conservation. I have extensive field experience working in the tropics. Recently I moved to the US with [my wife ](http://www.clfs.umd.edu/biology/faganlab/people/alvarez.html) I enjoy learn about R and computers. I am an avid photographer. 
 
 ## Recent interests:
 

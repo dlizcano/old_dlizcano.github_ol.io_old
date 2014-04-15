@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /cv/
 title: CV
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [about, Jekyll, theme, responsive]
