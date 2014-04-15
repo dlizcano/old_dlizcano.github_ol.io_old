@@ -11,12 +11,12 @@ owner:
   bio:            "Biologist, Mammal ecology and conservation, R and Linux fan"
   email:          dj.lizcano@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:  https://twitter.com/dlizcano      
-  facebook:  https://www.facebook.com/djlizcano     
-  github:   https://github.com/dlizcano      
+  twitter:  dlizcano    
+  facebook:  djlizcano     
+  github:   dlizcano      
   stackoverflow: 
-  linkedin:   http://www.linkedin.com/in/lizcano/     
-  500px:  http://500px.com/dlizcano    
+  linkedin:  lizcano   
+  500px:  dlizcano    
   lastfm:         
   tumblr: 
   pinterest: 
@@ -24,7 +24,7 @@ owner:
   steam: 
   dribbble: 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus: https://plus.google.com/u/0/+DiegoJLizcano/
+  google_plus: https://plus.google.com/+DiegoJLizcano/posts
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -37,6 +37,10 @@ bing_verify:
 links:
   - title: About
     url: /about/
+  - title: CV
+    url: /cv/ 
+  - title: Research
+    url: /research/	
   - title: Posts
     url: /posts/
   - title: Theme Setup
