@@ -27,8 +27,8 @@ owner:
   google_plus: https://plus.google.com/+DiegoJLizcano/posts
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics: UA-50023538-1  
+google_verify: google214e9032db7a3bda.html     
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:        
 
@@ -43,11 +43,11 @@ links:
     url: /research/	
   - title: Posts
     url: /posts/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://localhost:4000
-    external: true
+  - title: Other
+    url: /other/
+ # - title: Made Mistakes
+ #   url: http://localhost:4000
+ #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
