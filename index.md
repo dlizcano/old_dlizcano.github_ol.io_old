@@ -1,7 +1,7 @@
 ---
 layout: home
 description: "Diego J. Lizcano website"
-tags: [Diego Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapirus pinchaque]
+tags: [Diego J. Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapirus pinchaque]
 image:
   feature: texture-feature-05.jpg
   credit: Diego J. Lizcano
