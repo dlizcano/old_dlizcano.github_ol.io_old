@@ -1,14 +1,11 @@
 ---
 layout: home
-permalink: /index/
-title: Home
-modified: 2014-04-15 20:33
+description: "Diego J. Lizcano website"
 tags: [Diego Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapirus pinchaque]
 image:
-  feature: default-thumb.png
+  feature: texture-feature-05.jpg
   credit: Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
-share: 
 ---
 I work as professional-services consultant, with a focus on strategic matters around ecology and biodiversity conservation. I am especially interested in helping companies science and data based decisions. 
 
