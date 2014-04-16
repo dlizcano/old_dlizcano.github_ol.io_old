@@ -5,7 +5,7 @@ tags: [Diego J. Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapi
 
 image:
   feature: texture-feature-05.jpg
-  credit: Diego J. Lizcano
+  credit: Leaves, Silver Spring, MD, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
 I work as professional-services consultant, with a focus on strategic matters around ecology and biodiversity conservation. I am especially interested in helping companies to take science and data based decisions. 

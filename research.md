@@ -8,7 +8,7 @@ modified: 4-4-2014
 comments: true
 image:
   feature: texture-feature-04.jpg
-  credit: Diego J. Lizcano
+  credit: Red Uakari Monkey Peru. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
 In most of my research I have studied mountain tapirs, my favourite species. 

@@ -8,7 +8,7 @@ modified: 4-4-2014
 comments: true
 image:
   feature: texture-feature-01.jpg
-  credit: Diego J. Lizcano
+  credit: Los Nevados National Park, Colombia. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
 

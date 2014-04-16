@@ -7,8 +7,8 @@ tags: [about, Diego Lizcano, theme, Mountain Tapir, research, Colombia, Paramo]
 modified: 4-4-2014
 comments: true
 image:
-  feature: texture-feature-02.jpg
-  credit: Diego J. Lizcano
+  feature: texture-feature-08.jpg
+  credit: Mountain Tapir, Central Andes, Colombia. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
 
