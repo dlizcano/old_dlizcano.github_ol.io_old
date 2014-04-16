@@ -16,4 +16,4 @@ image:
 
 * Ph.D. Biodiversity Management. 2006. University of Kent, Canterbury, UK 
 * BSc. Biology. 1996. Universidad de los Andes, Bogotá, Colombia 
-* [Detailed CV ](https://sites.google.com/site/lizcanod/Hvida2009_Long.pdf) in PDF
+* [Detailed CV ](https://sites.google.com/site/lizcanod/CV_Lizcano_2014_I.pdf) in PDF
