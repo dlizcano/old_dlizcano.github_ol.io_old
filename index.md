@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /index/
-title: "index"
+title: Home
 modified: 2014-04-15 20:33
 tags: [Diego Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapirus pinchaque]
 image:
