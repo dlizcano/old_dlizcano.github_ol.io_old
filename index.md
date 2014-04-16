@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 permalink: /index/
 title: Home
 modified: 2014-04-15 20:33
