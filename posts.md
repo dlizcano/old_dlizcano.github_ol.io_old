@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: post
 permalink: /posts/
 title: All Posts
 tagline: A List of Posts
