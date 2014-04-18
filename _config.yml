@@ -2,7 +2,7 @@ title:            Diego J. Lizcano
 description:      Diego J. Lizcano personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://dlizcano.github.io
-disqus_shortname: 
+disqus_shortname: dlizcano
 
 # Owner/author information
 owner:
