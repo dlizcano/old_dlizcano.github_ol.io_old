@@ -11,5 +11,5 @@ image:
   credit: Fall in Silver Spring, MD, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
-I am also collaborator in the IUCN/SSC [Tapir Specialist Group (TSG)](http://www.tapirs.org/) and Admin of the [project "Fauna de Norte de Santander"](http://www.inaturalist.org/projects/fauna-de-norte-de-santander) in iNaturalist. 
-I have a great Boston terrier dog.
+I am member of the IUCN/SSC [Tapir Specialist Group (TSG)](http://www.tapirs.org/) and Admin of the [project "Fauna de Norte de Santander"](http://www.inaturalist.org/projects/fauna-de-norte-de-santander) in iNaturalist. 
+I have a great Boston terrier dog and enjoy planning and taking pictures.
