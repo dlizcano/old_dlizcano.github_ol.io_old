@@ -20,10 +20,10 @@ The process is simple but you can encounter some minor problems easy to fix. I b
 Once I finish the Ruby and gems installation and after making my first hello world website using Jekill, I did not like the default templates provided by Jekill. Looking around I found [Minimal Mistakes](http://jekyllthemes.org/themes/minimal-mistakes/), but after trying to install it, my first error arouse in Jekill. Minimal Mistakes use a different version of rake. The solution was to install each gem manually using this in the command prompt:    
 
 {% highlight css %}
-gem install gem.name --version "~> x.xx.x.xxx"
+gem install gem.name –v x.x.x
 {% endhighlight %}
 
-Just change gem.name for the name of your conflicting gem and put the version number instead x.xx.x.xxx. Then run Rake, if does not work, install the next conflicting gem and so on. After several minutes all including Rake worked fine.
+Just change gem.name for the name of your conflicting gem and put the version number instead x.x.x. Then run Rake, if does not work, install the next conflicting gem and so on. After several minutes all including Rake worked fine.
 
 ### If I were to do it again
-Reading [Fellgermon Bit](http://lcolladotor.github.io/2013/11/09/new-Fellgernon-Bit-setup-in-Github/#.U1DKBfldWSr) a simpler method is just fork the blog of another person you liked and customize things like pictures and posts. Of course Jekyll gives more control over your site, but you can spend a lot of time make sure that Ruby and gems work. 
+Reading [Fellgermon Bit](http://lcolladotor.github.io/2013/11/09/new-Fellgernon-Bit-setup-in-Github/#.U1DKBfldWSr) a simpler method is just fork the blog of another person you liked and customize things like pictures and posts. Of course Jekyll gives more control over your site, but make sure you can spend a lot of time put Ruby and gems working. 
