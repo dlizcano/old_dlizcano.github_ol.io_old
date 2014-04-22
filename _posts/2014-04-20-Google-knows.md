@@ -1,0 +1,74 @@
+---
+layout: post
+title: "Google knows"
+modified: 2014-04-20 01:24:36 -0400
+category: [post, blog, R]
+tags: [post,blog, R]
+image:
+  feature: texture-feature-07.jpg
+  credit: Andes Mountains, Peru. Diego J. Lizcano
+  creditlink: http://500px.com/dlizcano
+comments: true
+share: true
+---
+
+## Just a small part of Google data-harvesting practices
+Following the post by [http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live](http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live/). I was amaze to know how much Google knows about me.
+
+Just download the locations from [Google Takeout](https://accounts.google.com/ServiceLogin) and follow the next code.
+
+####Once you have the location file
+
+{% highlight css %}
+require(jsonlite)
+require(plyr)
+require(lubridate)
+# Load in the raw data from the JSON file
+raw = fromJSON ('data\\location\\HistorialdeUbicaciones.json')
+# Get the 'locations' part of the list
+locs = raw$locations
+# these are all the columns that it contains...
+names(locs)
+# they're in various formats...
+lapply(locs,class)
+{% endhighlight %}
+
+####Do some simple processing 
+
+{% highlight css %}
+# Get columns into useful formats 
+ldf = data.frame(t=rep(0,nrow(locs)))
+# time is in POSIX * 1000 (milliseconds) format, convert it to useful scale...
+ldf$t = as.numeric(locs$timestampMs)/1000
+class(ldf$t) = 'POSIXct'
+# lat/lon are xE7, convert them to usable numbers...
+ldf$lat = as.numeric(locs$latitudeE7/1E7)
+ldf$lon = as.numeric(locs$longitudeE7/1E7)
+# Get the map of your location
+require(ggplot2)
+require(ggmap)
+DC = get_map(c(-77.05,38.93),11,source='google', color = "bw")
+{% endhighlight %}
+
+####Making the map
+{% highlight css %}
+ggmap(DC) %+% ldf + aes(x = lon, y = lat) +
+  stat_binhex(data = ldf, aes(x = lon, y = lat),
+                 size = 5, binwidth = c(.01,.01), alpha = 2/4) +
+  scale_fill_gradient(low = "green", high = "red")  + 
+scale_alpha(range = c(0.00, 0.25), guide = FALSE) +
+  theme(legend.position = "none", axis.title = element_blank(), text = element_text(size = 12)) +
+  geom_point(data=ldf,aes(x=lon,y=lat), colour="blue", alpha = I(0.05))
+  {% endhighlight %}
+
+##The result
+####Were I have been
+
+<figure>
+	<a href="/images/map1.png"><img src="/images/map1.png"></a>
+</figure>
+
+## It is clear:
+- I spend much of my time in Silver Spring
+- I use the GPS of my phone sporadically, usually riding the red and green lines in the metro.
+
