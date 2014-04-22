@@ -2,8 +2,8 @@
 layout: post
 title: "Google knows"
 modified: 2014-04-20 01:24:36 -0400
-category: [post, blog, R]
-tags: [post,blog, R]
+category: [R, map]
+tags: [R, map, ggmap]
 image:
   feature: texture-feature-07.jpg
   credit: Andes Mountains, Peru. Diego J. Lizcano
@@ -12,7 +12,8 @@ comments: true
 share: true
 ---
 
-## Just a small part of Google data-harvesting practices
+## Just a small part of Google data-harvesting practices. 
+
 Following the post by [http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live](http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live/). I was amaze to know how much Google knows about me.
 
 Just download the locations from [Google Takeout](https://accounts.google.com/ServiceLogin) and follow the next code.
@@ -62,8 +63,7 @@ scale_alpha(range = c(0.00, 0.25), guide = FALSE) +
   {% endhighlight %}
 
 ##The result
-####Were I have been
-
+- Were I have been
 <figure>
 	<a href="/images/map1.png"><img src="/images/map1.png"></a>
 </figure>
