@@ -76,3 +76,4 @@ scale_alpha(range = c(0.00, 0.25), guide = FALSE) +
 - I spend much of my time in Silver Spring
 - I use the GPS of my phone sporadically, usually riding the red and green lines in the metro.
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
