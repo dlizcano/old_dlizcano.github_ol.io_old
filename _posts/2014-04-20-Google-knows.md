@@ -16,14 +16,18 @@ share: true
 
 Following the post by [http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live](http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live/). I was amaze to know how much Google knows about me.
 
-Just download the locations from [Google Takeout](https://accounts.google.com/ServiceLogin) and follow the next code.
+####Get your info
+
+If you use Google maps in your smart phone and you store your locations. This R code is for you. Just download the locations from [Google Takeout](https://accounts.google.com/ServiceLogin) and follow the code.
 
 ####Once you have the location file
 
+Save it in your hard drive \\data\\location\\ in my case.
+
 {% highlight css %}
-require(jsonlite)
-require(plyr)
-require(lubridate)
+library(jsonlite)
+library(plyr)
+library(lubridate)
 # Load in the raw data from the JSON file
 raw = fromJSON ('data\\location\\HistorialdeUbicaciones.json')
 # Get the 'locations' part of the list
