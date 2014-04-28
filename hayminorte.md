@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /hayminorte/
-title: Hay mi norte
+title: Haynorte
 tagline: De noticias y sucesos de Norte de Santander
 tags: [Norte de Santander, Colombia, Cucuta]
 modified: 4-9-2014
@@ -12,7 +12,7 @@ image:
   creditlink: http://500px.com/dlizcano
 ---
 
-Probando si funciona
+Probando porque no? funciona
 
 ## Work
 Aqui un evento
