@@ -12,11 +12,11 @@ comments: true
 share: true
 ---
 
-## Here are some examples my images. 
-Few days ago we went to take picture in the tidal basin. The cherries were in the blossom peak. Of course a lot of people was there. 
+## Here are some pictures. 
+A few days ago we went to take picture on the national mall. The cherries were in the blossom peak. Of course a lot of people was there. 
 
 <figure>
-	<a href="https://www.flickr.com/photos/diegolizcano/14043186651/"><img src="https://www.flickr.com/photos/diegolizcano/14043186651/"></a>
+	<a href="spring1/_MG_5896.jpg"><img src="spring1/_MG_5896.jpg"></a>
 	<figcaption><a href="https://www.flickr.com/photos/diegolizcano/14043186651/" title="Cherry blossom, on Flickr">Cherry blossom by me, on Flickr</a>.</figcaption>
 </figure>
 
@@ -24,8 +24,8 @@ Few days ago we went to take picture in the tidal basin. The cherries were in th
 #### The helicopters were very active
 
 <figure class="half">
-    <a href="https://www.flickr.com/photos/diegolizcano/14043176652/"><img src="https://www.flickr.com/photos/diegolizcano/14043176652/"></a>
-    <a href="/images/image-filename-2-large.https://www.flickr.com/photos/diegolizcano/14046376005/"><img src="https://www.flickr.com/photos/diegolizcano/14046376005/"></a>
+    <a href="spring1/_MG_5971.jpg"><img src="spring1/_MG_5971.jpg"></a>
+    <a href=spring1/_MG_5976.jpg"><img src="spring1/_MG_5976.jpg"></a>
     <figcaption>Over the Potomac river.</figcaption>
 </figure>
 
@@ -33,8 +33,8 @@ Few days ago we went to take picture in the tidal basin. The cherries were in th
 #### The trees
 
 <figure class="half">
-	<a href="https://www.flickr.com/photos/diegolizcano/14043177172/"><img src="https://www.flickr.com/photos/diegolizcano/14043177172/"></a>
-	<a href="https://www.flickr.com/photos/diegolizcano/14066396123/"><img src="https://www.flickr.com/photos/diegolizcano/14066396123/"></a>
+	<a href="spring1/_MG_5793.jpg"></a>
+	<a href="spring1/_MG_5871.jpg"></a>
 	<figcaption>The flowers.</figcaption>
 </figure>
 
