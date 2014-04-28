@@ -17,13 +17,12 @@ Probando si funciona
 ## Work
 Aqui un evento
 
-mas de norte de santander.
+mas de Norte de Santander.
 
 el teatro del absurdo
 
 #### ecuacion aqui
 con texto
-
 
 {% m %}
 E(Y|X) = G{X^T _B_}, donde:    
@@ -31,7 +30,7 @@ _B_ es el parametro a ser estimado
 G es la funcion de enlace (Bernoulli)!
 {% em %} 
 
-mas teto... y que pasa?.
+mas texto... y que pasa?.
 
 {% math %}
 E(Y|X) = G{X^T _B_}, donde:    
