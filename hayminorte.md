@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /hayminorte/
 title: Hay mi norte
 tagline: De noticias y sucesos de Norte de Santander
