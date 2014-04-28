@@ -4,7 +4,7 @@ permalink: /hayminorte/
 title: Hay mi norte
 tagline: De noticias y sucesos de Norte de Santander
 tags: [Norte de Santander, Colombia, Cucuta]
-modified: 4-4-2014
+modified: 4-9-2014
 comments: true
 image:
   feature: texture-feature-01.jpg
