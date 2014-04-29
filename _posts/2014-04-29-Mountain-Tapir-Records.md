@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Google knows"
+title: "Mountain Tapir locations in rMaps"
 modified: 2014-04-20 01:24:36 -0400
-category: [R, map]
+category: [R]
 tags: [R, map, ggmap]
 image:
   feature: texture-feature-07.jpg
