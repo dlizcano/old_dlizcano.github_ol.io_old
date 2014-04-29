@@ -13,7 +13,7 @@ share: true
 ---
 
 ## Here are some pictures. 
-A few days ago we went to take picture on the national mall. The cherries were in the blossom peak. Of course a lot of people was there. 
+A few days ago we went to take pictures on the national mall. The cherries were in the blossom peak. It was fantastic!. Of course a lot of people was there. 
 
 <figure>
 	<a href="/images/spring1/MG-5896.jpg"><img src="/images/spring1/MG-5896.jpg"></a>
