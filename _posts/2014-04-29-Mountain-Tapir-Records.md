@@ -53,5 +53,21 @@ map3$marker(c(fieldpoints[i,8], fieldpoints[i,7]), bindPopup = binpop)
   }
 {% endhighlight %}
 
+#### ecuacion aqui
+con texto
+
+{% m %}
+E(Y|X) = G{X^T _B_}, donde:    
+_B_ es el parametro a ser estimado     
+G es la funcion de enlace (Bernoulli)!
+{% em %} 
+
+mas texto... y que pasa?.
+
+{% math %}
+E(Y|X) = G{X^T _B_}, donde:    
+_B_ es el parametro a ser estimado     
+G es la funcion de enlace (Bernoulli)!
+{% endmath %}
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
