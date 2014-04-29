@@ -25,7 +25,7 @@ Taking as excuse the new package [rMaps](https://github.com/ramnathv/rMaps). I w
 
 ##### Those are some locations
 
-<iframe src="/content/2.html" width="400" height="600" style="display:block; margin: 0 auto;">&nbsp;</iframe>
+<iframe src="/content/2.html" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 #### The code to make it
 
 {% highlight css %}
@@ -44,8 +44,7 @@ map3$marker(c(fieldpoints[i,8], fieldpoints[i,7]), bindPopup = binpop)
   }
 {% endhighlight %}
 
-#### ecuacion aqui
-con texto
+
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
