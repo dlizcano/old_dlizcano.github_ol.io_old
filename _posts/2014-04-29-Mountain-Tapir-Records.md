@@ -25,7 +25,9 @@ Taking as excuse the new package [rMaps](https://github.com/ramnathv/rMaps). I w
 
 ##### Those are some locations
 
-<iframe src="/content/2.html" style="display:block; margin: 0 auto;">&nbsp;</iframe>
+<iframe src="/content/2.html" width="100%" height="400" scrolling="no" style="display:block; margin: 0 auto;">&nbsp;</iframe>
+
+
 #### The code to make it
 
 {% highlight css %}
