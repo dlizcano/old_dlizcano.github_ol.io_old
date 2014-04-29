@@ -25,16 +25,7 @@ Taking as excuse the new package [rMaps](https://github.com/ramnathv/rMaps). I w
 
 ##### Those are some locations
 
-<iframe src='
-content/2.html
-' scrolling='no' seamless class='rChart 
-leaflet
- '
-id=iframe-
-chart1f4cd407aa8
-></iframe>
-<style>iframe.rChart{ width: 100%; height: 400px;}</style>
-
+<iframe src="/content/2.html" width="400" height="600" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 #### The code to make it
 
 {% highlight css %}
