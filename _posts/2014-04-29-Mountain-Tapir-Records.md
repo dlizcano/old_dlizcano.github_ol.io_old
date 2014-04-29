@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Mountain Tapir locations in rMaps"
-modified: 2014-04-20 01:24:36 -0400
+modified: 2014-04-29 01:24:36 -0400
 category: [R]
-tags: [R, map, ggmap]
+tags: [R, map, rMaps]
 image:
   feature: texture-feature-07.jpg
   credit: Andes Mountains, Peru. Diego J. Lizcano
