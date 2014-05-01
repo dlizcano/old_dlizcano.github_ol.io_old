@@ -2,7 +2,7 @@
 layout: post
 title: "Opinion Mining in Tweets. The Spanish Version."
 modified: 2014-04-30 06:24:36 -0400
-category: [R]
+category:
 tags: [R, twitter, text-mining]
 image:
   feature: texture-feature-10.jpg

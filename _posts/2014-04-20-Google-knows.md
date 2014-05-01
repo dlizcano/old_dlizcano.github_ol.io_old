@@ -2,7 +2,7 @@
 layout: post
 title: "Google knows"
 modified: 2014-04-20 01:24:36 -0400
-category: [R, map]
+category:
 tags: [R, map, ggmap]
 image:
   feature: texture-feature-07.jpg

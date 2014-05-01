@@ -3,7 +3,7 @@ layout: post
 title: "Spring is here"
 modified: 2014-04-26 01:24:36 -0400
 category: [Photo]
-tags: [Photo, Picture]
+tags:
 image:
   feature: texture-feature-02.jpg
   credit: Palms, Ecuador. Diego J. Lizcano
