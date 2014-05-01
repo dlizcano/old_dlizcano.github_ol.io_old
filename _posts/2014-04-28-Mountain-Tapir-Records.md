@@ -2,7 +2,7 @@
 layout: post
 title: "Mountain Tapir locations in rMaps"
 modified: 2014-04-28 06:24:36 -0500
-category: [R]
+category: [R, Tapir]
 tags: [R, map, rMaps]
 image:
   feature: texture-feature-07.jpg
