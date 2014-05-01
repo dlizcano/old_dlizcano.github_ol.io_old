@@ -57,23 +57,6 @@ load("twitter authentication.Rdata")
 registerTwitterOAuth(Cred)
 {% endhighlight %}
 
-####Do some simple processing 
-
-{% highlight css %}
-# Get columns into useful formats 
-ldf = data.frame(t=rep(0,nrow(locs)))
-# time is in POSIX * 1000 (milliseconds) format, convert it to useful scale...
-ldf$t = as.numeric(locs$timestampMs)/1000
-class(ldf$t) = 'POSIXct'
-# lat/lon are xE7, convert them to usable numbers...
-ldf$lat = as.numeric(locs$latitudeE7/1E7)
-ldf$lon = as.numeric(locs$longitudeE7/1E7)
-# Get the map of your location
-require(ggplot2)
-require(ggmap)
-DC = get_map(c(-77.05,38.93),11,source='google', color = "bw")
-{% endhighlight %}
-
 ####Twitter Scrape  #Catatumbo #SanTurban #Cucuta  
 
 {% highlight css %}
@@ -142,8 +125,7 @@ SanTurban.scores$Team = 'SanTurban'
 Cucuta.scores$Team = 'Cucuta'
   {% endhighlight %}
 
-####Make the graph
-Comparing the 3 data sets	              
+####Make the graph Comparing the 3 Data Sets	              
 
 {% highlight css %}
 all.scores = rbind(Catatumbo.scores, SanTurban.scores, Cucuta.scores)
@@ -161,7 +143,7 @@ It is interesting to see how Catatumbo has the worst score and Santurban some fe
 
 ##What about Santurban?
 
-According to a prominent biodiversity guru in Colombia and the high-lines of a newspaper [Santurban polarized the country.](http://www.elcolombiano.com/BancoConocimiento/S/santurban_polarizo_el_pais_brigitte_baptiste/santurban_polarizo_el_pais_brigitte_baptiste.asp)
+According to a prominent biodiversity guru in Colombia and the high-lines of a newspaper, [Santurban polarized the country.](http://www.elcolombiano.com/BancoConocimiento/S/santurban_polarizo_el_pais_brigitte_baptiste/santurban_polarizo_el_pais_brigitte_baptiste.asp)
 So I wanted to describe the Santurban opinions in twitter in a systematic way. 
 
 {% highlight css %}
@@ -205,10 +187,9 @@ polarity = class_pol[,4]
 # data frame with results
 sent_df = data.frame(text=SanTurban_txt, emotion=emotion, 
                      polarity=polarity, stringsAsFactors=FALSE)
-
 # sort data frame
 sent_df = within(sent_df,
-                 emotion <- factor(emotion, levels=names(sort(table(emotion), decreasing=TRUE))))
+             emotion <- factor(emotion, levels=names(sort(table(emotion), decreasing=TRUE))))
   {% endhighlight %}
 
 #### Now the graphs
