@@ -15,8 +15,8 @@ share: true
 ## Opinions. Are they positive or negative?
 Opinion mining has attracted great interest in recent years. One of the most promising applications is analysis of opinions in social networks. Opinion mining in a broad sense is defined as the computational study of opinions, sentiments and emotions expressed in texts.
 
-Following the series of videos from [Paeng Angnakoon](https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ) I try to do the same. However once I wanted applied the code for twits in Spanish the lexicons were in English. 
-After some Google searches I found the data set from [Veronica Perez Rosas, Carmen Banea, Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html#SPANISH_SENT_LEXICONS) which I adapted to fit the package [sentiment](https://github.com/timjurka/sentiment), which by the way does not work under the version 3 of R. So the solution was to convert the package to functions. 
+Following the series of videos from [Paeng Angnakoon](https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ) I try to do the same. However once I applied the code for twits in Spanish the output was none because the lexicons were in English. 
+After some Google searches I found the Spanish lexicons from [Veronica Perez Rosas, Carmen Banea, Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html#SPANISH_SENT_LEXICONS) which I adapted to fit the package [sentiment](https://github.com/timjurka/sentiment), which by the way does not work under the version 3 of R. So the solution was to convert the package to functions. The package sentiment use a naive Bayes as categorizer engine. In a recent email [Carmen Baena ](http://www.carmenbanea.com/) suggested me to use [Weka.](http://www.cs.waikato.ac.nz/ml/weka/) apparently it is a very robust machine learning suite. I hope to find the time to give it a try.
 Another lexicom I am using here is from [Grigori SIDOROV.](http://www.cic.ipn.mx/~sidorov/#Downloads) 
  
 ## My Example
