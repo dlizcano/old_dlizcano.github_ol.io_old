@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Opinion Mining in Tweets"
+title: "Opinion Mining in Tweets. The Spanish Version."
 modified: 2014-04-30 06:24:36 -0400
 category: [R]
 tags: [R, twitter, text-mining]
@@ -21,11 +21,11 @@ Another lexicom I am using here is from [Grigori SIDOROV.](http://www.cic.ipn.mx
  
 ## My Example
 
-I wanted to investigate the opinions in twitter for Cucuta, my town. Also for San Turban a polemic region were gold mining is colliding with Paramo conservation, and the Catatumbo region another complex and even dangerous place in Norte de Santander, Colombia. In Catatumbo coca cultivation, African palm cultivation, guerrillas, paramilitary groups, Colombian army and corruption have made a wonderful cocktail.    
+I wanted to investigate the opinions in twitter for Cucuta, my town. Also for Santurban a polemic region were gold mining is colliding with Paramo conservation, and the Catatumbo region another complex and even dangerous place in Norte de Santander, Colombia. In Catatumbo coca cultivation, African palm cultivation, guerrillas, paramilitary groups, Colombian army and corruption have made an explosive cocktail.    
 
-####Get the code from my Github
+####Get the code from my [Github](https://github.com/dlizcano/tuit_sentimiento)
 
-####Get twitter access from R
+####To follow the code first get twitter access from R
 
  [Paeng Angnakoon](https://www.youtube.com/watch?v=mJVcANlkxU8) explain it very well in her first video.
 {% highlight css %}
@@ -244,6 +244,6 @@ ggplot(sent_df, aes(x=polarity)) +
 
 ## It is clear:
 - Most of Santurban opinions are positive. I guess they are coming from the government agencies.  
-- The country is not polarized. At least in twitter the positive opinions are more frequent. 
+- The country is not polarized at all. At least in twitter the positive opinions are more frequent. 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
