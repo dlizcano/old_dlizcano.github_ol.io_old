@@ -15,13 +15,15 @@ share: true
 ## Opinions. Are they positive or negative?
 Opinion mining has attracted great interest in recent years. One of the most promising applications is analysis of opinions in social networks. Opinion mining in a broad sense is defined as the computational study of opinions, sentiments and emotions expressed in texts.
 
-Following the series of videos from [Paeng Angnakoon](https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ) I try to do the same. However I wanted to apply the code for Twits in Spanish. 
-After some Google searches I found the data set from [Veronica Perez Rosas, Carmen Banea, Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html#SPANISH_SENT_LEXICONS) which I adapted to fit the package [sentiment](https://github.com/timjurka/sentiment), which by the way does not work under the version 3 of R. So the solution was to convert the package in functions. 
+Following the series of videos from [Paeng Angnakoon](https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ) I try to do the same. However once I wanted applied the code for twits in Spanish the lexicons were in English. 
+After some Google searches I found the data set from [Veronica Perez Rosas, Carmen Banea, Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html#SPANISH_SENT_LEXICONS) which I adapted to fit the package [sentiment](https://github.com/timjurka/sentiment), which by the way does not work under the version 3 of R. So the solution was to convert the package to functions. 
 Another lexicom I am using here is from [Grigori SIDOROV.](http://www.cic.ipn.mx/~sidorov/#Downloads) 
  
 ## My Example
 
 I wanted to investigate the opinions in twitter for Cucuta, my town. Also for San Turban a polemic region were gold mining is colliding with Paramo conservation, and the Catatumbo region another complex and even dangerous place in Norte de Santander, Colombia. In Catatumbo coca cultivation, African palm cultivation, guerrillas, paramilitary groups, Colombian army and corruption have made a wonderful cocktail.    
+
+####Get the code from my Github
 
 ####Get twitter access from R
 
@@ -71,17 +73,6 @@ require(ggplot2)
 require(ggmap)
 DC = get_map(c(-77.05,38.93),11,source='google', color = "bw")
 {% endhighlight %}
-
-####Making the map
-{% highlight css %}
-ggmap(DC) %+% ldf + aes(x = lon, y = lat) +
-  stat_binhex(data = ldf, aes(x = lon, y = lat),
-                 size = 5, binwidth = c(.01,.01), alpha = 2/4) +
-  scale_fill_gradient(low = "green", high = "red")  + 
-scale_alpha(range = c(0.00, 0.25), guide = FALSE) +
-  theme(legend.position = "none", axis.title = element_blank(), text = element_text(size = 12)) +
-  geom_point(data=ldf,aes(x=lon,y=lat), colour="blue", alpha = I(0.05))
-  {% endhighlight %}
 
 ####Twitter Scrape  #Catatumbo #SanTurban #Cucuta  
 
@@ -167,7 +158,8 @@ ggplot(data=all.scores) + # ggplot works on data.frames, always
 </figure>
   
 It is interesting to see how Catatumbo has the worst score and Santurban some few really high scores >3.   
-## What about Santurban?
+
+##What about Santurban?
 
 According to a prominent biodiversity guru in Colombia and the high-lines of a newspaper [Santurban polarized the country.](http://www.elcolombiano.com/BancoConocimiento/S/santurban_polarizo_el_pais_brigitte_baptiste/santurban_polarizo_el_pais_brigitte_baptiste.asp)
 So I wanted to describe the Santurban opinions in twitter in a systematic way. 
@@ -240,12 +232,12 @@ ggplot(sent_df, aes(x=polarity)) +
 {% endhighlight %}
 
 
-- First y Emotion
+- First by Emotion
 <figure>
 	<a href="/images/emotion.jpg"><img src="/images/emotion.jpg"></a>
 </figure>
 
-- Next Polarity
+- Next by Polarity
 <figure>
 	<a href="/images/polarity.jpg"><img src="/images/polarity.jpg"></a>
 </figure>
