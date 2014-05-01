@@ -56,7 +56,7 @@ pygments:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:date/
+permalink:   date
 
 kramdown:
   auto_ids: true
