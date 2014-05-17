@@ -14,7 +14,7 @@ share: true
 
 ## Mammal Collection in Colombia
 
-Disappointed because the last [report of Colombia to the CBD](http://www.pnud.org.co/sitio.shtml?apc=i1-----&x=75608#.U3b1wfldV8G) do not mention how much Colombia knows his biodiversity, I decided to carry a basic analysis using mammals. 
+Disappointed because the last [report of Colombia to the CBD](http://www.pnud.org.co/sitio.shtml?apc=i1-----&x=75608#.U3b1wfldV8G) do not mention how much Colombia knows his biodiversity, I decided to carry a basic analysis using mammal data and R. 
 
 In my opinion the report is only focus on ecosystem services and the only mention of biodiversity loss is trough deforestation. But my opinion on this matter will be subject of another post.
 
