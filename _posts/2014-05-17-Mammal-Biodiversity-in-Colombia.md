@@ -20,7 +20,7 @@ In my opinion the report is only focus on ecosystem services and the only mentio
 
 ## My Example
 
-First I downloaded the mammal data set for Colombia from [GBIF](http://www.gbif.org/occurrence/search?TAXON_KEY=359&COUNTRY=CO).
+First I downloaded the mammal data set for Colombia from [GBIF, which you can get here](http://www.gbif.org/occurrence/search?TAXON_KEY=359&COUNTRY=CO).
 The data set has 85318 records (probably more if you get it after May 2014). From those records I used the one with hard evidence: the ones having preserved specimens, eliminating 1893 observations mainly from [iNaturalist](http://www.inaturalist.org/) and [Corantioquia.](http://www.corantioquia.gov.co/) 
 
 Some georeferences were really bad made, plotting points outside Colombia. So I decided to overwrite those coordinates using NAs. At the end I used just 36031 georeferenced points to make the maps, less than half the total data set.  It is sad to discover that less than half the records are not or bad georeferenced.
@@ -30,7 +30,7 @@ Before making the maps I fixed some issues, such as empty records and the 820000
 
 #### Plotting all the records the map looks like this. 
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/map1.jpg"></a>
+	<img src="/images/mammal/map1.png">
 </figure>
 
 {% highlight css %}
@@ -85,7 +85,7 @@ map1<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 
 #### Putting colors to each collection, the map look like this.  
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/map2.jpg"></a>
+	<a href="/images/mammal/map2.png"><img src="/images/mammal/map2.png"></a>
 </figure>
     
 {% highlight css %}
@@ -103,7 +103,7 @@ There are some problems. ROM is duplicated and there are weird institutions such
   
 ####Potting a buffer of 100 km around each collection point we can discover places undersampled in the mammal collections.
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/map3.jpg"></a>
+	<a href="/images/mammal/map3.png"><img src="/images/mammal/map3.png"></a>
 </figure>
 
 {% highlight css %}
@@ -116,7 +116,7 @@ map3<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 
 #### What about if we compare the Colombian institutions against the others?	              
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/map4.jpg"></a>
+	<a href="/images/mammal/map4.png"><img src="/images/mammal/map4.png"></a>
 </figure>
 
 {% highlight css %}
@@ -128,18 +128,18 @@ map4<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 
 ####Which are those countries and what kind of mammals do they have? 
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/bar1.jpg"></a>
+	<a href="/images/mammal/bar1.png"><img src="/images/mammal/bar1.png"></a>
 </figure>
 
 ####What about if we ask for the years of collection?
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/mammalpeak.jpg"></a>
+	<a href="/images/mammal/mammalpeak.png"><img src="/images/mammal/mammalpeak.png"></a>
 </figure>
 The records start before 1800 and end in 2006. Interesting: There is a big peak in 1967
 
 Unfortunately that collection peak do not feed a Colombian institution. The big contribution from 1967 was for the USNM and the ROM 
 <figure>
-	<a href="/images/polarity.jpg"><img src="/images/all_yr.jpg"></a>
+	<a href="/images/mammal/all_yr.jpg"><img src="/images/mammal/all_yr.jpg"></a>
 </figure>
 
 {% highlight css %}
@@ -160,6 +160,6 @@ ggplot(bigtable, aes(year)) + geom_bar() + xlim(1850, 2006) +
   {% endhighlight %}
 
 #### So what happened in 1967?
-Why the last records for ICN and IAvH is 2006? 
+#### Why the last records for ICN and IAvH is 2006? 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
