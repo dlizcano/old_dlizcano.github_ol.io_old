@@ -132,7 +132,7 @@ map4<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 <figure>
 	<a href="/images/mammal/bar1.png"><img src="/images/mammal/bar1.png"></a>
 </figure>
-Bats are the most popular guys in collections. 
+Bats are the most popular guys in collections and the US is the winner.
 
 {% highlight css %}
 ### bar graph by country and order collected
