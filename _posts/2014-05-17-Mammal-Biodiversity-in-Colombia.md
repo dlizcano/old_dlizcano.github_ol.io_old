@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Mammal Collection in Colombia."
-modified: 2014-04-30 06:24:36 -0400
+title: "Mammal Biodiversity in Colombia."
+modified: 2014-05-17 06:24:36 -0400
 category:
 tags: [R, map, Colombia]
 image:
@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-## Biodiversity in Colombia
+## Mammal Collection in Colombia
 
 Disappointed because the last [report of Colombia to the CBD](http://www.pnud.org.co/sitio.shtml?apc=i1-----&x=75608#.U3b1wfldV8G) do not mention how much Colombia knows his biodiversity, I decided to carry a basic analysis using mammals. 
 
@@ -21,7 +21,7 @@ In my opinion the report is only focus on ecosystem services and the only mentio
 ## My Example
 
 First I downloaded the mammal data set for Colombia from [GBIF, which you can get here](http://www.gbif.org/occurrence/search?TAXON_KEY=359&COUNTRY=CO).
-The data set has 85318 records (probably more if you get it after May 2014). From those records I used the one with hard evidence: the ones having preserved specimens, eliminating 1893 observations mainly from [iNaturalist](http://www.inaturalist.org/) and [Corantioquia.](http://www.corantioquia.gov.co/) 
+The data set has 85318 records (probably more if you get it after May 2014). From those records I used the one with hard evidence: the ones having preserved specimens, eliminating 1893 observations, mainly from [iNaturalist](http://www.inaturalist.org/) and [Corantioquia.](http://www.corantioquia.gov.co/) 
 
 Some georeferences were really bad made, plotting points outside Colombia. So I decided to overwrite those coordinates using NAs. At the end I used just 36031 georeferenced points to make the maps, less than half the total data set.  It is sad to discover that less than half the records are not or bad georeferenced.
 
@@ -83,7 +83,7 @@ map1<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 
   {% endhighlight %}
 
-#### Putting colors to each collection, the map look like this.  
+#### Putting colors to each collection, the map looks like this.  
 <figure>
 	<a href="/images/mammal/map2.png"><img src="/images/mammal/map2.png"></a>
 </figure>
@@ -99,15 +99,15 @@ map2<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
   theme(legend.key = element_rect(colour = "white"))
   {% endhighlight %}
 
-There are some problems. ROM is duplicated and there are weird institutions such as “O”. But overall you can see that the only Colombian institutions reporting mammals to GBIF are ICN and IAvH. It is sad that other large collections such as Universidad del Valle, Universidad de Antioquia, Universidad del Cauca, and Universidad Javeriana are not reporting data to GBIF.
+There are some problems. ROM is duplicated and there are weird institutions such as “O”. But overall you can see that the only Colombian institutions reporting mammals to GBIF are ICN and IAvH. It is sad that other large mammal collections such as Universidad del Valle, Universidad de Antioquia, Universidad del Cauca, and Universidad Javeriana are not reporting data to GBIF.
   
-####Potting a buffer of 100 km around each collection point we can discover places undersampled in the mammal collections.
+####Putting a hexagons of approx 100 km around each collection point we can discover places undersampled in the mammal collections.
 <figure>
 	<a href="/images/mammal/map3.png"><img src="/images/mammal/map3.png"></a>
 </figure>
 
 {% highlight css %}
-#### Were have been colected mammals 
+#### Were have been collected the mammals 
 map3<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group = FALSE), size=1, 
                            data = bigtable,alpha=I(0.25),colour="red") + 
   stat_binhex(aes(x = decimallongitude, y = decimallatitude, group = FALSE),
@@ -119,8 +119,10 @@ map3<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 	<a href="/images/mammal/map4.png"><img src="/images/mammal/map4.png"></a>
 </figure>
 
+Well the mammal collected by Colombian institutions are less.
+
 {% highlight css %}
-##### Colmbia vs International
+##### Colombia vs International
 map4<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group = FALSE), size=2, 
                            data = bigtable,alpha=I(0.5),colour="red") + 
                           facet_wrap(~ int_col) + theme_bw()
@@ -130,6 +132,8 @@ map4<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 <figure>
 	<a href="/images/mammal/bar1.png"><img src="/images/mammal/bar1.png"></a>
 </figure>
+
+Bats are the most popular guys in collections. 
 
 ####What about if we ask for the years of collection?
 <figure>
@@ -141,7 +145,7 @@ Unfortunately that collection peak do not feed a Colombian institution. The big 
 <figure>
 	<a href="/images/mammal/all_yr.jpg"><img src="/images/mammal/all_yr.jpg"></a>
 </figure>
-
+The doted red line in red is the year 1967
 {% highlight css %}
 count<-ddply(bigtable,.(year), summarize, freq=length(year))
 count<-count[2:120,] # ignore 1700
