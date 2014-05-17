@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-## Mammal Collection in Colombia
+## Mammal Collection in Colombia. 
 
 Disappointed because the last [report of Colombia to the CBD](http://www.pnud.org.co/sitio.shtml?apc=i1-----&x=75608#.U3b1wfldV8G) do not mention how much Colombia knows his biodiversity, I decided to carry a basic analysis using mammal data and R. 
 
