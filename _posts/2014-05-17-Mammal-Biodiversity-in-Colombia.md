@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mammal Biodiversity in Colombia."
-modified: 2014-05-17 06:24:36 -0400
+modified: 2014-05-17 10:24:36 -0400
 category:
 tags: [R, map, Colombia]
 image:
@@ -23,7 +23,7 @@ In my opinion the report is only focus on ecosystem services and the only mentio
 First I downloaded the mammal data set for Colombia from [GBIF, which you can get here](http://www.gbif.org/occurrence/search?TAXON_KEY=359&COUNTRY=CO).
 The data set has 85318 records (probably more if you get it after May 2014). From those records I used the one with hard evidence: the ones having preserved specimens, eliminating 1893 observations, mainly from [iNaturalist](http://www.inaturalist.org/) and [Corantioquia.](http://www.corantioquia.gov.co/) 
 
-Some georeferences were really bad made, plotting points outside Colombia. So I decided to overwrite those coordinates using NAs. At the end I used just 36031 georeferenced points to make the maps, less than half the total data set.  It is sad to discover that less than half the records are not or bad georeferenced.
+Some georeferences were really bad made, plotting points outside Colombia. So I decided to overwrite those coordinates using NAs. At the end I used just 36031 georeferenced points to make the maps, less than half the total data set.  It is sad to discover that more than half the records are bad or not georeferenced.
 
 Before making the maps I fixed some issues, such as empty records and the 8200001422-01 problem, which you can see in detail at [the end of this post.](http://tapirologist.wordpress.com/2013/06/04/biodiversity-by-colombian-institutions/)
 
@@ -119,7 +119,7 @@ map3<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 	<a href="/images/mammal/map4.png"><img src="/images/mammal/map4.png"></a>
 </figure>
 
-Well the mammal collected by Colombian institutions are less.
+Well the mammals collected by Colombian institutions are less.
 
 {% highlight css %}
 ##### Colombia vs International
@@ -132,16 +132,25 @@ map4<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 <figure>
 	<a href="/images/mammal/bar1.png"><img src="/images/mammal/bar1.png"></a>
 </figure>
-
 Bats are the most popular guys in collections. 
 
+{% highlight css %}
+### bar graph by country and order collected
+barcountry<-ggplot(bigtable, aes(publishingcountry, fill=order_)) + 
+  geom_bar() + scale_colour_brewer(palette="Set1")
+  {% endhighlight %}
+  
 ####What about if we ask for the years of collection?
 <figure>
 	<a href="/images/mammal/mammalpeak.png"><img src="/images/mammal/mammalpeak.png"></a>
 </figure>
 The records start before 1800 and end in 2006. Interesting: There is a big peak in 1967
 
-Unfortunately that collection peak do not feed a Colombian institution. The big contribution from 1967 was for the USNM and the ROM 
+Unfortunately that huge collection peak do not feed a Colombian institution. 
+<figure>
+	<a href="/images/mammal/bar2.png"><img src="/images/mammal/bar2.png"></a>
+</figure>
+The big contribution from 1967 was for the USNM and the ROM 
 <figure>
 	<a href="/images/mammal/all_yr.jpg"><img src="/images/mammal/all_yr.jpg"></a>
 </figure>
