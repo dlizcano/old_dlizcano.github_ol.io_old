@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Opinion Mining in Tweets. The Spanish Version."
+title: "Mammal Collection in Colombia."
 modified: 2014-04-30 06:24:36 -0400
 category:
 tags: [R, map, Colombia]
