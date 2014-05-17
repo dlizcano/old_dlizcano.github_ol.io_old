@@ -154,7 +154,7 @@ The big contribution from 1967 was for the USNM and the ROM
 <figure>
 	<a href="/images/mammal/all_yr.jpg"><img src="/images/mammal/all_yr.jpg"></a>
 </figure>
-The doted red line in red is the year 1967
+The doted red line is the year 1967
 {% highlight css %}
 count<-ddply(bigtable,.(year), summarize, freq=length(year))
 count<-count[2:120,] # ignore 1700
