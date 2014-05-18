@@ -196,6 +196,7 @@ ggplot(data1967, aes(mes, fill=order_)) +
   {% endhighlight %}
   
 Amaze by the numbers I went back to the whole data set and tried to reconstruct in a map the places were Cornelis J. Marinkelle went to collect mammals.
+Unfortunately some years such as 1961 and 1971 do not have georeferenced records and there are a lot of georeferenced records without the year, marked as NA. I guess the data set need a little bit of work.
 <figure>
 	<a href="/images/mammal/Marinkelle3.png"><img src="/images/mammal/Marinkelle3.png"></a>
 </figure>
@@ -206,6 +207,7 @@ map5<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
   facet_wrap(~ year,nrow =3) + theme_bw()
   {% endhighlight %}
   
-#### Why the last records for ICN and IAvH are in 2006? 
+#### The last question is why the last records for ICN and IAvH are in 2006? 
+Are they not collecting any more or simply do not updating their data in GBIF?
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
