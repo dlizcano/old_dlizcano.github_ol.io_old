@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mammal Biodiversity in Colombia."
-modified: 2014-05-17 10:24:36 -0400
+modified: 2014-05-18 01:24:36 -0400
 category:
 tags: [R, map, Colombia]
 image:
@@ -173,7 +173,33 @@ ggplot(bigtable, aes(year)) + geom_bar() + xlim(1850, 2006) +
   {% endhighlight %}
 
 #### So what happened in 1967?
+<figure>
+	<a href="/images/mammal/Marinkelle1.png"><img src="/images/mammal/Marinkelle1.png"></a>
+	<a href="/images/mammal/Marinkelle2.png"><img src="/images/mammal/Marinkelle2.png"></a>
+</figure>
+The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from Universidad de los Andes at Bogota, was very active collecting bats. Probably searching for parasites. Now I regret I never took his class while I was Biology student in Universidad de los Andes.
 
+{% highlight css %}
+data1967<-subset(bigtable, year=="1967") # subset of that year
+require(lubridate)
+data1967$mes<-month(data1967$month,label=TRUE)
+ggplot(data1967, aes(mes, fill=recordedby)) + 
+  geom_bar() + scale_colour_brewer(palette="Set1") + ggtitle("1967 by collector")
+ggplot(data1967, aes(mes, fill=order_)) + 
+  geom_bar() + scale_colour_brewer(palette="Set1") + ggtitle("1967 by mammal Order")
+  {% endhighlight %}
+  
+Amaze by the numbers I went back to the whole data set and tried to reconstruct in a map the places were Cornelis J. Marinkelle went to collect mammals.
+<figure>
+	<a href="/images/mammal/Marinkelle3.png"><img src="/images/mammal/Marinkelle3.png"></a>
+</figure>
+{% highlight css %}
+marinkelle<-subset(bigtable, recordedby=="Marinkelle, CJ") # Just Marinkelle
+map5<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group = FALSE), size=2, 
+                           data = marinkelle,alpha=I(0.5),colour="red") + 
+  facet_wrap(~ year,nrow =3) + theme_bw()
+  {% endhighlight %}
+  
 #### Why the last records for ICN and IAvH are in 2006? 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
