@@ -178,10 +178,12 @@ ggplot(bigtable, aes(year)) + geom_bar() + xlim(1850, 2006) +
 	<a href="/images/mammal/Marinkelle2.png"><img src="/images/mammal/Marinkelle2.png"></a>
 </figure>
 The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from [Universidad de los Andes at Bogota,](http://www.uniandes.edu.co) was very active collecting bats. Probably searching for parasites. Now I regret I never took his class while I was Biology student in Universidad de los Andes. 
+
 <figure class="third">
 	<img src="/images/mammal/CORNELIS_MARINKELLE.jpg">
-	<figcaption>Picture of Cornelis J. Marinkelle from BBC Mundo.</figcaption>
+	<figcaption>Cornelis J. Marinkelle in a picture from BBC Mundo.</figcaption>
 </figure>
+
 He was also an avid bird egg collector. [Here a note from BBC mundo about him.](http://www.bbc.co.uk/mundo/cultura_sociedad/2009/05/090511_coleccion_marinkelle.shtml?s)
 
 {% highlight css %}
