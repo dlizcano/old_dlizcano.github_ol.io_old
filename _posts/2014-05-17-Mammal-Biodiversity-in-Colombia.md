@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mammal Biodiversity in Colombia."
-modified: 2014-05-18 01:24:36 -0400
+modified: 2014-05-18 13:15:36 -0400
 category:
 tags: [R, map, Colombia]
 image:
@@ -119,7 +119,7 @@ map3<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 	<a href="/images/mammal/map4.png"><img src="/images/mammal/map4.png"></a>
 </figure>
 
-Well the mammals collected by Colombian institutions are less.
+Well the places were mammals have been collected by Colombian institutions are less.
 
 {% highlight css %}
 ##### Colombia vs International
@@ -178,10 +178,9 @@ ggplot(bigtable, aes(year)) + geom_bar() + xlim(1850, 2006) +
 	<a href="/images/mammal/Marinkelle2.png"><img src="/images/mammal/Marinkelle2.png"></a>
 </figure>
 The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from [Universidad de los Andes at Bogota,](http://www.uniandes.edu.co) was very active collecting bats. Probably searching for parasites. Now I regret I never took his class while I was Biology student in Universidad de los Andes. 
-
 <figure class="third">
 	<img src="/images/mammal/CORNELIS_MARINKELLE.jpg">
-	<figcaption>Picture from BBC Mundo.</figcaption>
+	<figcaption>Picture of Cornelis J. Marinkelle from BBC Mundo.</figcaption>
 </figure>
 He was also an avid bird egg collector. [Here a note from BBC mundo about him.](http://www.bbc.co.uk/mundo/cultura_sociedad/2009/05/090511_coleccion_marinkelle.shtml?s)
 
