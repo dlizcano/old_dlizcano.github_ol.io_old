@@ -210,6 +210,7 @@ map5<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
   
 #### The last question is why there are not more records for ICN and IAvH after 2006? 
 Are they not collecting any more or simply do not updating their data to GBIF?
+
 I will appreciate any comment.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
