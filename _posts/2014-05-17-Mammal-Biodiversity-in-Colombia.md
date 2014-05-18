@@ -177,7 +177,8 @@ ggplot(bigtable, aes(year)) + geom_bar() + xlim(1850, 2006) +
 	<a href="/images/mammal/Marinkelle1.png"><img src="/images/mammal/Marinkelle1.png"></a>
 	<a href="/images/mammal/Marinkelle2.png"><img src="/images/mammal/Marinkelle2.png"></a>
 </figure>
-The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from Universidad de los Andes at Bogota, was very active collecting bats. Probably searching for parasites. Now I regret I never took his class while I was Biology student in Universidad de los Andes. 
+The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from [Universidad de los Andes at Bogota,](http://www.uniandes.edu.co) was very active collecting bats. Probably searching for parasites. Now I regret I never took his class while I was Biology student in Universidad de los Andes. 
+
 <figure class="third">
 	<img src="/images/mammal/CORNELIS_MARINKELLE.jpg">
 	<figcaption>Picture from BBC Mundo.</figcaption>
