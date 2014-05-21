@@ -197,7 +197,7 @@ ggplot(data1967, aes(mes, fill=order_)) +
   {% endhighlight %}
   
 Amaze by the numbers I went back to the whole data set and tried to reconstruct in a map the places were Cornelis J. Marinkelle went to collect mammals.
-Unfortunately some years such as 1961 and 1971 do not have georeferenced records and there are a lot of georeferenced records without the year, marked as NA. I guess the data set needs a little bit of work than a weekend.
+Unfortunately some years such as 1961 and 1971 do not have georeferenced records and there are a lot of georeferenced records without the year, marked as NA. I guess the data set needs a little bit more of work than a weekend.
 <figure>
 	<a href="/images/mammal/Marinkelle3.png"><img src="/images/mammal/Marinkelle3.png"></a>
 </figure>
