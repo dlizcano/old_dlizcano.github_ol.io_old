@@ -18,7 +18,7 @@ The y axis is the number of researchers in that category.
 	<img src="/images/Colciencias/calif_investigadores.png">
 </figure>
 
-Intrigued and trying to understand how the new ranking system for research groups look like in Colombia. I was looking for some details [here.0(http://www.colciencias.gov.co/articulos/medici-n-de-grupos-de-investigaci-n-desarrollo-tecnol-gico-yo-innovaci-n-y-recocimiento-de)
+Intrigued and trying to understand how the new ranking system for research groups look like in Colombia. I was looking for some details [here.](http://www.colciencias.gov.co/articulos/medici-n-de-grupos-de-investigaci-n-desarrollo-tecnol-gico-yo-innovaci-n-y-recocimiento-de)
 Just recently [Colciencias](http://www.colciencias.gov.co) changed their silly policy publishing scanned PDF files. However it is still annoying that [Colciencias](http://www.colciencias.gov.co) is still publishing their results in PDF tables very hard to read by a computer. 
 Asking if re results are available in another format different to PDF they argue "security" reasons. 
 
