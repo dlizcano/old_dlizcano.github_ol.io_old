@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Investigadores y grupos en Colombia"
+title: "Researchers and groups in Colombia"
 modified: 2014-05-28 15:10:36 -0400
 category:
 tags: [R, ciencia, Colombia]
 image:
   feature: texture-feature-14.jpg
-  credit: Trees in the winter, Silver Spring, MD, USA. Diego J. Lizcano
+  credit: Tunnel, Arlington, VA, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 comments: true
 share: true
 ---
 
-## The new system to evaluate researchers by Colciencias. 
-
+## There is a new system to evaluate researchers by Colciencias. 
+The y axis is the number of researchers in that category.
 <figure>
 	<img src="/images/Colciencias/calif_investigadores.png">
 </figure>
@@ -27,7 +27,7 @@ Asking if re results are available in another format different to PDF they argue
 	<img src="/images/Colciencias/petition.jpg">
 </figure>
 
-Now I have to find the time to to make thousand clicks to convert the PDF with the results in something readable by a computer. I try before converting the PDF to text, but the result is a crazy mess. 
+Now I have to find the time to to make thousand clicks to convert the PDF with the results in something readable by a computer. I try before converting the PDF to text, but the result was a crazy mess. 
 
 I will appreciate any comment.
 
