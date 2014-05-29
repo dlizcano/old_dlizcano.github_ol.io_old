@@ -22,7 +22,7 @@ Intrigado por los resultados de la medición y con curiosidad sobre el nuevo ran
 
 Hace muy poco [Colciencias](http://www.colciencias.gov.co) cambio la politica tonta de publicar documentos escaneados como PDF. Sin embargo aun publican sus resultados en PDFs que son muy difíciles de leer automáticamente por un computador. 
 
-Al preguntarles si podrían enviarme el resultado en un documento excel, csv o teto, responden que no pueden y argumentan razones de "seguridad de la información".
+Al preguntarles si podrían enviarme el resultado en un documento excel, csv o texto, responden que no pueden y argumentan razones de "seguridad de la información".
 
 #### Acá lo que Colciencias responde a mi petición.	              
 <figure>
