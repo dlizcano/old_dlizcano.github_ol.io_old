@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-## Hay un nuevo sistema de clasificación de investigadores y grupos por [Colciencias](http://www.colciencias.gov.co). 
+## Hay un nuevo sistema de clasificación de investigadores y grupos por [Colciencias.](http://www.colciencias.gov.co)  
 Acá se ve como quedo la clasificación de los investigadores. El eje y es el numero de investigadores en esa categoría.
 <figure>
 	<img src="/images/Colciencias/calif_investigadores.png">
