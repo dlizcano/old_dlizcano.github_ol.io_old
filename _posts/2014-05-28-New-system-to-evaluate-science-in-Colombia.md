@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Researchers and groups in Colombia"
+title: "Investigadores y grupos de investigación en Colombia"
 modified: 2014-05-28 15:10:36 -0400
 category:
 tags: [R, ciencia, Colombia]
@@ -12,24 +12,26 @@ comments: true
 share: true
 ---
 
-## There is a new system to evaluate researchers by Colciencias. 
-The y axis is the number of researchers in that category.
+## Hay un nuevo sistema de clasificación de investigadores y grupos por [Colciencias](http://www.colciencias.gov.co). 
+Acá se ve como quedo la clasificación de los investigadores. El eje y es el numero de investigadores en esa categoría.
 <figure>
 	<img src="/images/Colciencias/calif_investigadores.png">
 </figure>
 
-Intrigued and trying to understand how the new ranking system for research groups look like in Colombia. I was looking for some details [here.](http://www.colciencias.gov.co/articulos/medici-n-de-grupos-de-investigaci-n-desarrollo-tecnol-gico-yo-innovaci-n-y-recocimiento-de)
+Intrigado por los resultados de la medición y con curiosidad sobre el nuevo ranking pensé que podría hacer algunas gráficas descriptivas, ya que el informe de [Colciencias](http://www.colciencias.gov.co) no tiene ni una. Pero buscando mas detalles lo único que hay esta [acá.](http://www.colciencias.gov.co/articulos/medici-n-de-grupos-de-investigaci-n-desarrollo-tecnol-gico-yo-innovaci-n-y-recocimiento-de)
 
-Just recently [Colciencias](http://www.colciencias.gov.co) changed their silly policy publishing scanned PDF files. However it is very annoying that [Colciencias](http://www.colciencias.gov.co) is still publishing their results in PDF tables very hard to read by a computer. 
-Asking if the results are available in another format different to PDF they argue "security" reasons. 
+Hace muy poco [Colciencias](http://www.colciencias.gov.co) cambio la politica tonta de publicar documentos escaneados como PDF. Sin embargo aun publican sus resultados en PDFs que son muy difíciles de leer automáticamente por un computador. 
 
-#### Here what they answer to my petition.	              
+Al preguntarles si podrían enviarme el resultado en un documento excel, csv o teto, responden que no pueden y argumentan razones de "seguridad de la información".
+
+#### Acá lo que Colciencias responde a mi petición.	              
 <figure>
 	<img src="/images/Colciencias/petition.jpg">
 </figure>
 
-Now I have to find the time to to make thousand clicks to convert the PDF with the results in something readable by a computer. I try before converting the PDF to text, but the result was a crazy mess. 
+Así que ahora tengo que invertir el tiempo de algún fin d semana para hacer mil clicks y organizar y extraer del PDF la información relevante. 
 
-I will appreciate any comment.
+Previamente había hecho algunos ensayos convirtiendo el PDF a texto, pero lo que resulta es de un desorden increíble, como un sancocho.
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
