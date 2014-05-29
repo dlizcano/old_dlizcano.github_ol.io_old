@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Investigadores y grupos de investigación en Colombia"
-modified: 2014-05-28 15:10:36 -0400
+modified: 2014-05-29 11:10:36 -0400
 category:
 tags: [R, ciencia, Colombia]
 image:
