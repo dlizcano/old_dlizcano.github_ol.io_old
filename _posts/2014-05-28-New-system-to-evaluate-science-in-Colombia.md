@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Investigadores y grupos de investigación en Colombia"
-modified: 2014-05-29 11:10:36 -0400
+modified: 2014-05-30 11:10:36 -0400
 category:
 tags: [R, ciencia, Colombia]
 image:
@@ -29,7 +29,7 @@ Al preguntarles si podrían enviarme el resultado en un documento excel, csv o t
 	<img src="/images/Colciencias/petition.jpg">
 </figure>
 
-Así que ahora tengo que invertir el tiempo de algún fin d semana para hacer mil clicks y organizar y extraer del PDF la información relevante. 
+Así que ahora tengo que invertir el tiempo de algún fin de semana para hacer mil clicks y organizar y extraer del PDF la información relevante. 
 
 Previamente había hecho algunos ensayos convirtiendo el PDF a texto, pero lo que resulta es de un desorden increíble, como un sancocho.
 
