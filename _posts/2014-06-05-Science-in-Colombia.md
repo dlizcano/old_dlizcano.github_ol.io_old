@@ -16,14 +16,14 @@ share: true
  
 La [negativa de Colciencias](http://dlizcano.github.io/2014/05/28/New-system-to-evaluate-science-in-Colombia.html) para compartir los resultados de su convocatoria 640 del 2013, fue mi mejor excusa para aprender web scraping y extraer datos del la pagina [Colciencias-Scienti.](http://scienti.colciencias.gov.co:8083/ciencia-war/) Acá les dejo el [código en R y las tablas](https://github.com/dlizcano/Grupos_Colciencias) a los interesados.
 
-Los resultados de este nuevo sistema de medición ha generado controversia. [Acá](http://www.eltiempo.com/archivo/documento/CMS-13826027) y [acá](http://www.rcnradio.com/noticias/investigadores-de-la-udea-criticaron-el-modelo-de-investigacion-de-colciencias-139109?utm_source=dlvr.it&utm_medium=twitter) algunos artículos al respecto. Aunque el método de medición tiene indices raros, la verdad yo les confieso que me alegra que Colciencias, por fin se pone al tanto de los estándares internacionales dando mas puntos al factor de impacto de las publicaciones.   
+Los resultados de este nuevo sistema de medición ha generado controversia. [Acá](http://www.eltiempo.com/archivo/documento/CMS-13826027) y [acá](http://www.rcnradio.com/noticias/investigadores-de-la-udea-criticaron-el-modelo-de-investigacion-de-colciencias-139109?utm_source=dlvr.it&utm_medium=twitter) algunos artículos al respecto. Aunque el método de medición tiene indices raros (como eso de la colaboración interna y no externa), la verdad, yo les confieso que me alegra ver como Colciencias por fin se pone al tanto de los estándares internacionales, dando mas puntos al factor de impacto de las publicaciones.   
 
 Acá se ve como quedo la clasificación de los grupos por área.
 <figure>
 	<img src="/images/Colciencias/grupos1.png">
 </figure>
 
-Es interesante que hay mas grupos A1 que A y que haya mas C que D. Se les desvió la pirámide que buscaban?.
+Es interesante que hay mas grupos A1 que A y que haya mas C que D. Se supone que hay una secuencia de D hasta A. Con A1 como lo máximo. Se les desvió la pirámide que buscaban?.
 
 ## El genero 
 
@@ -102,7 +102,7 @@ map3<-mapbase + geom_point(aes(x = lon, y = lat, group = FALSE), size=1,
 
 Generalmente muchos de los integrantes de los grupos son estudiantes . Así que una forma de ver el impacto de los grupos en la formación de investigadores es contar a sus integrantes.  
 
-<iframe width="810" height="400" src="http://dlizcano.github.io/content/map_chart.html" frameborder="0"> </iframe>
+<iframe width="850" height="450" src="http://dlizcano.github.io/content/map_chart.html" frameborder="0"> </iframe>
 
 
 {% highlight css %}
