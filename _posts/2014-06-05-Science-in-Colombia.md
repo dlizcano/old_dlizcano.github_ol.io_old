@@ -56,7 +56,7 @@ Según la nueva clasificación.
 <figure>
 	<img src="/images/Colciencias/mapa_grupos.png">
 </figure>
-Bogotá domina en todas las categorías. Hay varios departamentos sin grupos de investigación.
+Bogotá domina en todas las categorías. Hay varios departamentos sin grupos de investigación. Me pregunto como encajará esta falta de grupos de investigación en algunas regiones con los proyectos financiados con el fondo de regalías?
 
 {% highlight css %}
 ### Takes 5 minutes and require Internet conexion
@@ -100,7 +100,7 @@ map3<-mapbase + geom_point(aes(x = lon, y = lat, group = FALSE), size=1,
 
 ## Que impacto han tenido los grupos?
 
-Generalmente muchos de los integrantes de los grupos son estudiantes . Así que una forma de ver el impacto de los grupos en la formación de investigadores es contar a sus integrantes.  
+Generalmente muchos de los integrantes de los grupos son estudiantes . Así que una forma de ver el impacto de los grupos en la formación de investigadores, es contar a sus integrantes, los cuales no discrimine como activos o inactivos.  
 
 <iframe width="850" height="450" src="http://dlizcano.github.io/content/map_chart.html" frameborder="0"> </iframe>
 
