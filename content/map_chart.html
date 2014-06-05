@@ -410,7 +410,7 @@ return(data);
 
 
 // jsData 
-function gvisDataBarChartID378c14b122d () {
+function gvisDataBarChartID378c17e94e54 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -561,17 +561,17 @@ options["backgroundColor"] = "lightblue";
 
 
 // jsDrawChart
-function drawChartBarChartID378c14b122d() {
-var data = gvisDataBarChartID378c14b122d();
+function drawChartBarChartID378c17e94e54() {
+var data = gvisDataBarChartID378c17e94e54();
 var options = {};
 options["allowHtml"] = true;
-options["width"] =    400;
-options["height"] =    600;
+options["width"] =    300;
+options["height"] =    400;
 options["legend"] = "none";
 
 
     var chart = new google.visualization.BarChart(
-    document.getElementById('BarChartID378c14b122d')
+    document.getElementById('BarChartID378c17e94e54')
     );
     chart.draw(data,options);
     
@@ -634,9 +634,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartBarChartID378c14b122d);
+callbacks.push(drawChartBarChartID378c17e94e54);
 })();
-function displayChartBarChartID378c14b122d() {
+function displayChartBarChartID378c17e94e54() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -664,7 +664,7 @@ callbacks.shift()();
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID378c14b122d"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartBarChartID378c17e94e54"></script>
  
 <table border="0">
 <tr>
@@ -681,8 +681,8 @@ callbacks.shift()();
 
 <!-- divChart -->
   
-<div id="BarChartID378c14b122d"
-  style="width: 400px; height: 600px;">
+<div id="BarChartID378c17e94e54"
+  style="width: 300px; height: 400px;">
 </div>
 
 </td>
