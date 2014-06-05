@@ -16,7 +16,7 @@ share: true
  
 La [negativa de Colciencias](http://dlizcano.github.io/2014/05/28/New-system-to-evaluate-science-in-Colombia.html) para compartir los resultados de su convocatoria 640 del 2013, fue mi mejor excusa para aprender web scraping y extraer datos del la pagina [Colciencias-Scienti.](http://scienti.colciencias.gov.co:8083/ciencia-war/) Acá les dejo el [código en R y las tablas](https://github.com/dlizcano/Grupos_Colciencias) a los interesados.
 
-Los resultados de este nuevo sistema de medición ha generado controversia. [Aca](http://www.eltiempo.com/archivo/documento/CMS-13826027) y [aca](http://www.rcnradio.com/noticias/investigadores-de-la-udea-criticaron-el-modelo-de-investigacion-de-colciencias-139109?utm_source=dlvr.it&utm_medium=twitter) algunos artículos al respecto. Aunque el metido de medición tiene indices raros, la verdad yo les confieso que me alegra que Colciencias, por fin se pone al tanto de los estándares internacionales dando mas puntos al impacto de las publicaciones.   
+Los resultados de este nuevo sistema de medición ha generado controversia. [Acá](http://www.eltiempo.com/archivo/documento/CMS-13826027) y [acá](http://www.rcnradio.com/noticias/investigadores-de-la-udea-criticaron-el-modelo-de-investigacion-de-colciencias-139109?utm_source=dlvr.it&utm_medium=twitter) algunos artículos al respecto. Aunque el método de medición tiene indices raros, la verdad yo les confieso que me alegra que Colciencias, por fin se pone al tanto de los estándares internacionales dando mas puntos al factor de impacto de las publicaciones.   
 
 Acá se ve como quedo la clasificación de los grupos por área.
 <figure>
@@ -52,7 +52,7 @@ ggplot(grupos, aes(Clasificacion, fill=Area1)) + geom_bar() + facet_wrap(~ Gener
 
 ## Donde se localizan los grupos?
 
-Según su la nueva clasificación.
+Según la nueva clasificación.
 <figure>
 	<img src="/images/Colciencias/mapa_grupos.png">
 </figure>
@@ -103,9 +103,10 @@ map3<-mapbase + geom_point(aes(x = lon, y = lat, group = FALSE), size=1,
 Generalmente muchos de los integrantes de los grupos son estudiantes . Así que una forma de ver el impacto de los grupos en la formación de investigadores es contar a sus integrantes.  
 
 <iframe width=620 height=400 frameborder="0"
-src="content/map_chart.html">
+src="http://dlizcano.github.io/content/map_chart.html">
 Your browser does not support iframe
 </iframe>
+
 
 {% highlight css %}
 #  investigadores per Depto
