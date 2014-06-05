@@ -18,7 +18,7 @@ La [negativa de Colciencias](http://dlizcano.github.io/2014/05/28/New-system-to-
 
 Los resultados de este nuevo sistema de medición ha generado controversia. [Acá](http://www.eltiempo.com/archivo/documento/CMS-13826027) y [acá](http://www.rcnradio.com/noticias/investigadores-de-la-udea-criticaron-el-modelo-de-investigacion-de-colciencias-139109?utm_source=dlvr.it&utm_medium=twitter) algunos artículos al respecto. Aunque en mi opinión el método de medición tiene indices raros (como eso de la colaboración interna y no externa), la verdad, yo les confieso que me alegra ver como Colciencias por fin se pone al tanto de los estándares internacionales, dando mas puntos al factor de impacto de las publicaciones. Es que antes como era posible que de acuerdo a [Publindex](http://201.234.78.173:8084/publindex/) se le daba el mismo peso a publicar en Nature o en Caldasia. Con todo el respeto y admiración que siento por las revistas nacionales... Eso era perverso!. 
 
-Gabriela Delgado @gabydel me aclara que el indice de colaboración no es tan "raro" como yo pensaba, y que si reconoce la cooperación con grupos externos.   
+Gabriela Delgado [@gabydel](https://twitter.com/gabydel) me aclara que el indice de colaboración no es tan "raro" como yo pensaba, y que si reconoce la cooperación con grupos externos.   
 
 ## Como quedo la clasificación de los grupos por área.
 <figure>
