@@ -54,7 +54,7 @@ ggplot(grupos, aes(Clasificacion, fill=Area1)) + geom_bar() + facet_wrap(~ Gener
 
 Según la nueva clasificación.
 <figure>
-	<a href="/images/Colciencias/mapa_grupos.png"><img src="/images/Colciencias/mapa_grupos.png"></a>
+	<a href="/images/Colciencias/mapa_grupos.png"><img src="/images/Colciencias/mapa_grupos_big.png"></a>
 </figure>
 Bogotá domina en todas las categorías. Hay varios departamentos sin grupos de investigación. Me pregunto como encajará esta falta de grupos de investigación en algunas regiones con los proyectos financiados con el fondo de regalías?
 
