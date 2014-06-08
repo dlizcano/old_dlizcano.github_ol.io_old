@@ -14,7 +14,7 @@ share: true
 
 ## Calendario de la creación de grupos de investigación en Colombia.  
  
-Continuando con el [post anterior,](http://dlizcano.github.io/2014/06/05/Science-in-Colombia.html) pensé usando la fecha de creación de los grupos de investigación podría revelar algo, sobre la forma como ha cambiado la ciencia en Colombia. 
+Continuando con el [post anterior,](http://dlizcano.github.io/2014/06/05/Science-in-Colombia.html) pensé que usando la fecha de creación de los grupos de investigación, podría revelar algo sobre la forma como ha cambiado la ciencia en Colombia. 
 
 <figure>
 	<a href="/images/Colciencias/calendar_big.png"><img src="/images/Colciencias/calendar_small.png"></a>
