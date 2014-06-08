@@ -21,6 +21,9 @@ Continuando con el [post anterior,](http://dlizcano.github.io/2014/06/05/Science
 </figure>
 
 Aunque la figura resulta muy grande, pareciera haber un patrón interesante? 
+
+La mayoría de los grupos se crean en enero, o en los primeros meses del año. 
+
 Definitivamente debo pensar en una forma diferente para ver esto..... continuara... 
 {% highlight css %}
 P<- ggplot(grupos2, aes(y=1, x=month)) 
