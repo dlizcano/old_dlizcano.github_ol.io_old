@@ -19,6 +19,6 @@ Impressed by the twitting maps of the world cup, [like this](http://cartodb.com/
 
 ### The map
 
-<iframe width='100%' height='520' frameborder='0' src='//dlizcano.cartodb.com/viz/0b95b2d0-ff92-11e3-9a28-0e230854a1cb/embed_map?title=true&description=true&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1&sql=&sw_lat=-19.890723023996898&sw_lon=-110.74218749999999&ne_lat=31.05293398570514&ne_lon=-37.44140625' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='//dlizcano.cartodb.com/viz/0b95b2d0-ff92-11e3-9a28-0e230854a1cb/embed_map?title=true&description=true&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1&sql=&sw_lat=-7.623886853120036&sw_lon=-91.23046875&ne_lat=18.521283325496288&ne_lon=-54.58007812499999' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
