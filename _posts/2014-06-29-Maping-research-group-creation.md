@@ -15,7 +15,7 @@ share: true
 ## Mapping the evolution of research groups. 
 
 Impressed by the twitting maps of the world cup, [like this](http://cartodb.com/v/worldcup/match/?TC=x&vis=4474d148-ff1b-11e3-b66c-0edbca4b5057&h=t&t=Colombia%2CFFCC00%7CUruguay%2C0F3B82&m=6%2F28%2F2014+17%3A00%3A00+GMT%2C6%2F28%2F2014+18%3A52%3A00GMT&g=28%2C68%7C#/2/-20.3/-13.4/0). I decided to try CartoDB. It is amazing how simple and easy is to make a map.
- For this example I am extending previous posts like [this](http://dlizcano.github.io/2014/06/05/Science-in-Colombia.html) and [this](http://dlizcano.github.io/2014/06/07/Calendar-research-groups.html). Were I discuss about the way research groups are ranked in Colombia by [COLCIENCIAS](http://www.colciencias.gov.co). Here you can [get the data set](https://github.com/dlizcano/Grupos_Colciencias). The map represent the year were each group was created.
+ For this example I am extending previous posts like [this](http://dlizcano.github.io/2014/06/05/Science-in-Colombia.html) and [this](http://dlizcano.github.io/2014/06/07/Calendar-research-groups.html). Were I discuss about the way research groups are ranked in Colombia by [COLCIENCIAS](http://www.colciencias.gov.co). Here you can [get the data set](https://github.com/dlizcano/Grupos_Colciencias). The map represent the year and place were each group was created.
 
 ### The map
 
