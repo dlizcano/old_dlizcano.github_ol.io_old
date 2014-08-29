@@ -31,8 +31,9 @@ Now I really respect the people working with more than 20 camera traps simultane
 
 </figure>
 
-### Here you can see the track of my GPS
 
-<iframe width='100%' height='520' frameborder='0' src='http://dlizcano.cartodb.com/viz/54da3158-2faf-11e4-94b1-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+### Here you can see the track from my GPS
+
+<iframe width='100%' height='520' frameborder='0' src='http://dlizcano.cartodb.com/viz/43d1af28-2fb2-11e4-8067-0e73339ffa50/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
