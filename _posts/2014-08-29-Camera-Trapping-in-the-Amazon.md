@@ -26,14 +26,13 @@ Now I really respect the people working with more than 20 camera traps simultane
 ## The team
 <figure>
   <a href="/images/Amazon/Curare_people.gif"><img src="/images/Amazon/Curare_people.gif"></a>
-  <figcaption><a href="https://www.flickr.com/photos/diegolizcano/sets/72157646591226468/" title="More pictures on Flickr">Standing left to right: Benancio, Jorge and me. Sited on the log left to right: Gerome,Erwin Palacios, Andres Paez, Gabriel and Gaudencio.
+  <figcaption><a href="https://www.flickr.com/photos/diegolizcano/sets/72157646591226468/" title="More pictures on Flickr">Standing left to right: Benancio, Jorge and me. Sited on the log left to right: Gerome, Erwin Palacios, Andres Paez, Gabriel and Gaudencio.
 </a>.</figcaption>
 
 </figure>
 
+### Here you can see the track of my GPS
 
-### The map
-
-<iframe width='100%' height='520' frameborder='0' src='//dlizcano.cartodb.com/viz/0b95b2d0-ff92-11e3-9a28-0e230854a1cb/embed_map?title=true&description=true&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1&sql=&sw_lat=-7.623886853120036&sw_lon=-91.23046875&ne_lat=18.521283325496288&ne_lon=-54.58007812499999' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width='100%' height='520' frameborder='0' src='http://dlizcano.cartodb.com/viz/54da3158-2faf-11e4-94b1-0e230854a1cb/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
