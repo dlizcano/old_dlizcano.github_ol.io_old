@@ -16,13 +16,13 @@ share: true
 In a consultancy work for Conservation International - Colombia, I went to the Colombian Amazon to install camera traps using the [Tropical Ecology Assessment and Monitoring (TEAM) Network](http://www.teamnetwork.org/) [methodology](http://www.teamnetwork.org/protocols/bio/terrestrial-vertebrate). The complete experience was amazing. We carried out two expeditions to Curare watershed in a small canoe. 
 
 <figure>
-  <a href="/images/Amazin/Canoa.jpg"><img src="/images/Amazin/Canoa.jpg"></a>
+  <a href="/images/Amazon/Canoa.jpg"><img src="/images/Amazon/Canoa.jpg"></a>
 </figure>
 
 I thing that I underestimated the effort and the logistics at the beginning, so after four days in the forest we have installed just nine cameras. In that moment we realized that we needed a different approach. Also because we were getting low on food and because everybody was tired of just rice and lentils without salt, Yes we forgot the salt!!!. So after a week camping in the deeps of the forest, we decided to go back to La Pedrera to buy more food, and to plan a new expedition. Of course this time we decided to include salt and caned sardines to vary the diet. In our second expedition we split in three teams to install the remaining 11 cameras simultaneously. After just two days in the forest the job was done. 
 
 <figure>
-  <a href="/images/Amazin/Curare_people.gif"><img src="/images/Amazin/Curare_people.gif"></a>
+  <a href="/images/Amazon/Curare_people.gif"><img src="/images/Amazon/Curare_people.gif"></a>
 </figure>
 
 Now I really respect the people working with more than 20 camera traps simultaneously. 
