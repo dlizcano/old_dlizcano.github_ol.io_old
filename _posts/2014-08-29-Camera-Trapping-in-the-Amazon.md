@@ -5,8 +5,8 @@ modified: 2014-08-29 13:15:36 -0400
 category:
 tags: [Colombia, Amazon, Camera Trap]
 image:
-  feature: texture-feature-13.jpg
-  credit: Trees in the winter, Silver Spring, MD, USA. Diego J. Lizcano
+  feature: texture-feature-20.jpg
+  credit: Caqueta River at La Pedrera, Colombia. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 comments: true
 share: true
