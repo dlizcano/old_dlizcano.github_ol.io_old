@@ -40,7 +40,7 @@ Sorprendentemente muchos de sus párrafos son alegres, seguido por algunos trist
 
 ###Polaridad global
 <figure>
-  <a href="/images/Ecuador/emotion_analysis.png"><img src="/images/Ecuador/emotion_analysis.png"></a>
+  <a href="/images/Ecuador/polarity_clasification.png"><img src="/images/Ecuador/polarity_clasification.png"></a>
 </figure>
 
 ###Y la infaltable nube de palabras.
