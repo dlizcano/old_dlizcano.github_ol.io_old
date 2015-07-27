@@ -6,7 +6,7 @@ category:
 tags: [Ecuador, ciencia, R, Educación, text-mining]
 image:
   feature: texture-feature-21.jpg
-  credit: Amazon parrot at La Pedrera, Colombia. Diego J. Lizcano
+  credit: Amazon parrot. La Pedrera, Colombia. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 comments: true
 share: true
