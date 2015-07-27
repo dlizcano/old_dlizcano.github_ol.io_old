@@ -14,7 +14,7 @@ share: true
 
 ##Tratando de entender mejor la política Ecuatoriana.
 
-Luego de varios meses en Manta, Ecuador, trabajando como investigador del [DCI-ULEAM](http://www.uleam.edu.ec/) en el proyecto [Fauna de Manabí](http://faunamanabi.github.io/). La universidad para la que laboro fue intervenida por el gobierno. Ahora yo me imagino que muchas de las decisiones y reformas que se implementen en la ULEAM estarán alineadas con la política del gobierno. 
+Luego de varios meses en Manta, Ecuador, trabajando como investigador del DCI-ULEAM [http://www.uleam.edu.ec/](http://www.uleam.edu.ec/) en el proyecto Fauna de Manabí [http://faunamanabi.github.io/](http://faunamanabi.github.io/). La universidad para la que laboro fue intervenida por el gobierno. Ahora yo me imagino que muchas de las decisiones y reformas que se implementen en la ULEAM estarán alineadas con la política del gobierno. 
 
 Como extranjero en Ecuador mi relación con la política Ecuatoriana es lejana. Pero de lo poco que se, el gobierno de Rafael Correa tiene una política muy amigable con la educación, de hecho han creado varias universidades nuevas, han implementado políticas novedosas e invertido buenos recursos al para atraer investigadores y docentes extranjeros a las universidades del Ecuador. A esto se le ha sumado un programa de becas que envía a ecuatorianos a estudiar a las mejores universidades del mundo. 
 
