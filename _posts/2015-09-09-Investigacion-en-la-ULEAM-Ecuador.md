@@ -38,37 +38,38 @@ Las instituciones que he seleccionado para comparar a la ULEAM son:
 - [Universidad Técnica de Manabí (UTM)](http://www.utm.edu.ec/). Una universidad publica de carácter regional, de características similares a la ULEAM y ubicada en la capital de Manabí. 
 
 La comparación es muy sencilla y tal vez bastante "naive", pero muy diciente. Se trata de tener en cuenta el numero de artículos publicados entre el 2000 y 2015.
-Algo que hay que aclarar es que no estoy teniendo en cuenta, ni el factor de impacto, ni el numero de citaciones. La búsqueda en las dos bases de datos la realice usando la institución de afiliación del autor con el nombre completo y su sigla como variación. Aquí están los resultados:
+Algo que hay que aclarar es que no estoy teniendo en cuenta, ni el factor de impacto, ni el numero de citaciones. La búsqueda en las dos bases de datos la realice usando la institución de afiliación del autor con el nombre completo y su sigla como variación.
 
- 
-
-
-
-
-Con este "post" de mi blog, quiero usar las técnicas de minería de texto y el mismo clasificador de sentimientos de una [entrada anterior](http://dlizcano.github.io/2014/04/30/Opinion-Mining-Tweets.html), para analizar un discurso de René Ramírez, el actual Secretario de Educación Superior Ciencia, Tecnología e Innovación [SENECYT](http://www.educacionsuperior.gob.ec/) y Presidente del Consejo de Educación Superior [CES](http://www.ces.gob.ec/). Quien por cierto es bien activo en twitter, como [@compaiRENE](https://twitter.com/compaiRENE). El discurso se titula: La disputa política por el sentido del (bio)conocimiento y lo baje de su lo baje de su [página web](http://reneramirez.ec/ponencia-la-disputa-politica-por-el-sentido-del-bioconocimiento/). 
-
-Si bien el análisis de sentimientos es bien controversial por su aparente falta de rigor estadístico y por la debilidad de su clasificador bayesiano "naive", que por cierto, ahora me entero, se traduce como ingenuo, me gusta esa traducción!. El hecho es que a pesar de ser polémico, este tipo de análisis, es una poderosa herramienta de análisis de mercados, usada por muchas empresas de minería de datos. 
-
-El discurso fue analizado dividiendolo en 3 partes, por párrafos. A cada párrafo se le asignó un puntaje dependiendo de las palabras usadas y que tan positiva o negativa es la palabra, comparada con un corpus hibrido en español que he ido construyendo, el cual ya tiene mas de 3300 palabras. Y aquí el resultado:
-
-### Polaridad
+####Aquí el Resultado
+- Publicaciones de universidades
 <figure>
-  <a href="/images/Ecuador/opinion_score.png"><img src="/images/Ecuador/opinion_score.png"></a>
+	<a href="/images/uleam/juntas.png"><img src="/images/uleam/juntas.png"></a>
 </figure>
 
-Curiosamente a medida que avanza el discurso, este se hace más positivo (score mayor que cero).
+#####Es muy claro que:
+Hay muchísimas mas publicaciones registradas en la base de datos de Scopus que en ISI Web of Science. Y muy seguramente tiene que ver con que Scopus indexa también 
+memorias de congresos y publicaciones de Elsevier, su propia casa comercial, que no tienen [factor de impacto](https://es.wikipedia.org/wiki/Factor_de_impacto), del cual se encarga el Instituto para la Información Científica (Institute for Scientific Information (ISI) de Thomson Reuters, usando una metodología clara y bien establecida.
 
-### Análisis de sentimientos
+En pocas palabras las publicaciones registradas en ISI Web of Science tienen mas alto perfil en términos científicos. 
+
+####Y que tal se ve solo ISI Web of Science?
 <figure>
-  <a href="/images/Ecuador/emotion_analysis.png"><img src="/images/Ecuador/emotion_analysis.png"></a>
+	<a href="/images/uleam/isi.png"><img src="/images/uleam/isi.png"></a>
 </figure>
 
-Sorprendentemente muchos de sus párrafos son alegres, seguido por algunos tristes. Pero en términos generales el discurso es positivo, neutral,  tal como se ve en la próxima gráfica. 
+######Se aprecia que:
+La Universidad Católica es la dominante en publicaciones de alto factor de impacto, seguida por la San Francisco de Quito. Lo interesante acá es la ULEAM tiene mas publicaciones, con alto factor de impacto, que la 
+Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, mas que la Universidad Técnica Particular de Loja.  
 
-###Polaridad global
-<figure>
-  <a href="/images/Ecuador/polarity_clasification.png"><img src="/images/Ecuador/polarity_clasification.png"></a>
-</figure>
+###Calidad Vs. Cantidad?
+Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](/images/uleam/reserchgateranking.jpg) tiene un gran peso en la investigación, pero también hay que resaltar la Calidad de lo poco que se publica en la ULEAM. 
+Yo simplemente me pregunto; que pasaría si los investigadores de la ULEAM tuvieran mas apoyo?
+
+###Y que se publica en la ULEAM
+Bueno he bajado de ISI Web of Science las citas de los artículos, y he hecho la infaltable wordcloud.
+
+Acá Ud. puede acceder a las publicaciones de la ULEAM como un archivo para Mendeley .bib o EndNote 
+
 
 ###Y la infaltable nube de palabras.
 <figure>
