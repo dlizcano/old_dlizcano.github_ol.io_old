@@ -85,7 +85,7 @@ library(plyr)
 library(RefManageR)
 library(tm)
 
-referencias<-ReadBib("/uleam.bib")
+referencias<-ReadBib("uleam.bib")
 
 # build a corpus from a list
 myCorpus <- Corpus(VectorSource(referencias$abstract))
