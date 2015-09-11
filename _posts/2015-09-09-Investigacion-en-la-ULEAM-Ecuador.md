@@ -35,9 +35,9 @@ Las instituciones que he seleccionado para comparar a la ULEAM son:
 
 - [Universidad San Francisco de Quito, (USFQ)](http://www.usfq.edu.ec/Paginas/Inicio.aspx). Una universidad privada y "Top" que hace muy buena investigación. A pesar de tener san en el nombre, no es religiosa.
 - [Pontificia Universidad Católica del Ecuador (PUCE)](http://www.puce.edu.ec/). Una universidad de carácter religioso, con unas colecciones increíbles de la Biodiversidad del Ecuador.
-- [Universidad Central del Ecuador (UCE)](http://www.uce.edu.ec/). Es una universidad Universidad Central del Ecuador (UCE). Es una universidad pública, la más antigua del Ecuador y tal vez la más grande en número de estudiantes. 
+- [Universidad Central del Ecuador (UCE)](http://www.uce.edu.ec/). Es una universidad pública, la más antigua del Ecuador y tal vez la más grande en número de estudiantes. 
 - [Universidad Técnica Particular del Loja (UTPL)](http://www.utpl.edu.ec/). Una universidad de origen religioso, que también hace muy buena investigación en Biodiversidad y bosques.  
-- [Universidad Técnica de Manabí (UTM)](http://www.utm.edu.ec/). Una universidad Universidad Central del Ecuador (UCE). Es una universidad pública, de carácter regional, de características similares a la ULEAM y ubicada en la capital de Manabí. 
+- [Universidad Técnica de Manabí (UTM)](http://www.utm.edu.ec/). Es una universidad pública, de carácter regional, de características similares a la ULEAM y ubicada en la capital de Manabí. 
 
 La comparación es muy sencilla y tal vez bastante "naive", pero muy diciente. Se trata de tener en cuenta el número de artículos publicados entre el 2000 y 2015.
 Algo que hay que aclarar es que no estoy teniendo en cuenta, el número de citaciones de los artículos, ni el conteo de cuantiles en su factor de impacto. La búsqueda en las dos bases de datos la realicé usando la institución de afiliación del autor con el nombre completo y su sigla como variación.
