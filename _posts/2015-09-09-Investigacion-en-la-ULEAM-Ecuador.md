@@ -16,7 +16,7 @@ share: true
 ##Mi tiempo en Ecuador
 
 Pronto voy a completar un año de haber llegado a Manta, Ecuador, a trabajar como investigador del DCI-ULEAM [http://www.uleam.edu.ec/](http://www.uleam.edu.ec/) en el proyecto Fauna de Manabí [http://faunamanabi.github.io/](http://faunamanabi.github.io/). 
-La verdad debo confesar que Ecuador no me ha tratado mal, a pesar de la perdida de Kaila y algunas dificultades al tratar de adaptarme a las particularidades culturales del Ecuador. Aunque ya lo logre, la adaptación no fue fácil, muy a pesar de ser de Colombiano, y tal vez por el formato cuadriculado que he adquirido en Inglaterra, el país donde estudie, y por haber vivido en USA antes de venir acá. 
+La verdad debo confesar que Ecuador no me ha tratado mal, a pesar de la perdida de Kaila y algunas dificultades al tratar de adaptarme a las particularidades culturales del Ecuador. Aunque ya lo logré, la adaptación no fue fácil, muy a pesar de ser de Colombiano, y tal vez por el formato cuadriculado que he adquirido en Inglaterra, el país donde estudie, y por haber vivido en USA antes de venir acá. 
 
 ##Que tan buena y visible es la investigación que se hace en la ULEAM?
 
@@ -36,7 +36,7 @@ Las instituciones que he seleccionado para comparar a la ULEAM son:
 - [Universidad San Francisco de Quito, (USFQ)](http://www.usfq.edu.ec/Paginas/Inicio.aspx). Una universidad privada y "Top" que hace muy buena investigación. A pesar de tener san en el nombre, no es religiosa.
 - [Pontificia Universidad Católica del Ecuador (PUCE)](http://www.puce.edu.ec/). Una universidad de carácter religioso, con unas colecciones increíbles de la Biodiversidad del Ecuador.
 - [Universidad Central del Ecuador (UCE)](http://www.uce.edu.ec/). Es una universidad publica, la mas antigua del Ecuador y tal vez la mas grande en numero de estudiantes. 
-- [Universidad Técnica Particular del Loja (UTPL)](http://www.utpl.edu.ec/]. Una universidad de origen religioso que también hace muy buena investigación en Biodiversidad.  
+- [Universidad Técnica Particular del Loja (UTPL)](http://www.utpl.edu.ec/). Una universidad de origen religioso, que también hace muy buena investigación en Biodiversidad y bosques.  
 - [Universidad Técnica de Manabí (UTM)](http://www.utm.edu.ec/). Una universidad publica de carácter regional, de características similares a la ULEAM y ubicada en la capital de Manabí. 
 
 La comparación es muy sencilla y tal vez bastante "naive", pero muy diciente. Se trata de tener en cuenta el numero de artículos publicados entre el 2000 y 2015.
@@ -61,7 +61,7 @@ En pocas palabras las publicaciones registradas en ISI Web of Science tienen mas
 
 ######Se aprecia que:
 La Universidad Católica es la dominante en publicaciones de alto factor de impacto, seguida por la San Francisco de Quito. Lo interesante acá es la ULEAM tiene mas publicaciones, con alto factor de impacto, que la 
-Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, mas que la Universidad Técnica Particular de Loja.  
+Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, mas que la Universidad Técnica Particular de Loja y de lejos la ULEAM supera a la Universidad Técnica de Manabí (UTM).  
 
 ###Calidad Vs. Cantidad?
 Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](/images/uleam/reserchgateranking.jpg) tiene un gran peso en el ranking de las instituciones de investigación en Ecuador. Pero también debemos preguntarnos que estrategia adoptar? Muchos artículos sin o con poco factor de impacto? o pocos con alto impacto? En este sentido hay que resaltar la alta Calidad de lo poco que se publica en la ULEAM. 
