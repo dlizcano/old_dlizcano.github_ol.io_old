@@ -16,16 +16,18 @@ share: true
 ##Mi tiempo en Ecuador
 
 Pronto voy a completar un año de haber llegado a Manta, Ecuador, a trabajar como investigador del DCI-ULEAM [http://www.uleam.edu.ec/](http://www.uleam.edu.ec/) en el proyecto Fauna de Manabí [http://faunamanabi.github.io/](http://faunamanabi.github.io/). 
-La verdad debo confesar que Ecuador no me ha tratado mal, a pesar de la perdida de Kaila y algunas dificultades al tratar de adaptarme a las particularidades culturales del Ecuador. No fue del todo fácil, muy a pesar de ser de Colombiano, y tal vez por el formato cuadriculado que he adquirido en Inglaterra, el país donde estudie, y por haber vivido en USA antes de venir acá. 
+La verdad debo confesar que Ecuador no me ha tratado mal, a pesar de la perdida de Kaila y algunas dificultades al tratar de adaptarme a las particularidades culturales del Ecuador. Aunque ya lo logre, la adaptación no fue fácil, muy a pesar de ser de Colombiano, y tal vez por el formato cuadriculado que he adquirido en Inglaterra, el país donde estudie, y por haber vivido en USA antes de venir acá. 
 
 ##Que tan buena y visible es la investigación que se hace en la ULEAM?
 
-Luego de algún tiempo en esta institución hemos recibido algunas explicaciones, sobre cual es la investigación que le da puntos a la ULEAM frente a [CEAACES](http://www.ceaaces.gob.ec/), que la verdad aun no entiendo.... Lo que he querido hacer con este "post" de mi blog, es tratar de entender mejor el impacto de la investigación que se realiza la ULEAM.  
+Luego de algún tiempo en esta institución he conocido el gran esfuerzo que ha hecho esta universidad para atraer investigadores y [prometeos](http://prometeo.educacionsuperior.gob.ec/). También hemos recibido algunas explicaciones, sobre cual es la investigación que le da puntos a la ULEAM frente a [CEAACES](http://www.ceaaces.gob.ec/), pero la verdad es que aun no entiendo....?
+
+Lo que he querido hacer con este "post" de mi blog, es tratar de entender mejor el impacto de la investigación que realiza la ULEAM.  
 
 ###Como ven a la ULEAM desde lejos?
 
 Lo que planteo es bien sencillo. Imaginen a alguien en Corea del Sur, Bélgica, Estados Unidos, o en cualquier otro lugar y que quiera buscar lo que hace la ULEAM en términos de investigación científica. Esta persona muy probablemente 
-recurrirá a una base de datos especializada como [Web of Sciences de Thomson Reuters](http://wokinfo.com/) o [Scopus de Elsevier](http://www.elsevier.com/solutions/scopus).  Bueno pues he hecho la tarea buscando en esas bases de datos y arbitrariamente comparo a la ULEAM con otras instituciones de Ecuador. 
+recurrirá a una base de datos especializada como [Web of Sciences de Thomson Reuters](http://wokinfo.com/) o [Scopus de Elsevier](http://www.elsevier.com/solutions/scopus).  Bueno, pues he hecho la tarea buscando en esas bases de datos y arbitrariamente comparo a la ULEAM con otras instituciones de Ecuador. 
 
 ###Una buena evaluación es comparativa
 
@@ -38,7 +40,7 @@ Las instituciones que he seleccionado para comparar a la ULEAM son:
 - [Universidad Técnica de Manabí (UTM)](http://www.utm.edu.ec/). Una universidad publica de carácter regional, de características similares a la ULEAM y ubicada en la capital de Manabí. 
 
 La comparación es muy sencilla y tal vez bastante "naive", pero muy diciente. Se trata de tener en cuenta el numero de artículos publicados entre el 2000 y 2015.
-Algo que hay que aclarar es que no estoy teniendo en cuenta, ni el factor de impacto, ni el numero de citaciones. La búsqueda en las dos bases de datos la realice usando la institución de afiliación del autor con el nombre completo y su sigla como variación.
+Algo que hay que aclarar es que no estoy teniendo en cuenta, el numero de citaciones de los artículos, ni el conteo de cuantiles en su factor de impacto. La búsqueda en las dos bases de datos la realice usando la institución de afiliación del autor con el nombre completo y su sigla como variación.
 
 ####Aquí el Resultado
 Publicaciones de autores con filiación a una universidad
@@ -62,11 +64,12 @@ La Universidad Católica es la dominante en publicaciones de alto factor de impa
 Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, mas que la Universidad Técnica Particular de Loja.  
 
 ###Calidad Vs. Cantidad?
-Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](/images/uleam/reserchgateranking.jpg) tiene un gran peso en el ranking de las instituciones de investigación en Ecuador. Pero también debemos preguntarnos que estrategia adoptar? Muchos artículos sin o con poco factor de impacto o pocos con alto impacto? En este sentido hay que resaltar la alta Calidad de lo poco que se publica en la ULEAM. 
-Yo simplemente me pregunto; que pasaría si los investigadores de la ULEAM tuvieran mas apoyo?
+Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](/images/uleam/reserchgateranking.jpg) tiene un gran peso en el ranking de las instituciones de investigación en Ecuador. Pero también debemos preguntarnos que estrategia adoptar? Muchos artículos sin o con poco factor de impacto? o pocos con alto impacto? En este sentido hay que resaltar la alta Calidad de lo poco que se publica en la ULEAM. 
+
+En Conclusión las publicaciones de la ULEAM son de buena calidad!. Yo simplemente me pregunto; que pasaría si los investigadores de la ULEAM tuvieran mas apoyo?
 
 ###Y que se publica en la ULEAM
-Bueno he bajado de ISI Web of Science las citas de los artículos, y he hecho la infaltable nube de palabras.
+Bueno he bajado de ISI Web of Science las citas de los artículos, y he hecho una nube de palabras con las mas frecuentes en los resúmenes de los artículos.
 
 ###Y la infaltable nube de palabras.
 <figure>
@@ -82,7 +85,7 @@ library(plyr)
 library(RefManageR)
 library(tm)
 
-referencias<-ReadBib("C:/Users/Diego/Documents/GitHub/dlizcano.github.io/content/uleam.bib")
+referencias<-ReadBib("/uleam.bib")
 
 # build a corpus from a list
 myCorpus <- Corpus(VectorSource(referencias$abstract))
@@ -117,5 +120,6 @@ wordcloud(words=names(freq), freq=freq, scale=c(8,.5), min.freq=2,
 dev.off()
 {% endhighlight %}
 
+Luego de revisar una por una las referencias de las publicaciones ULEAM debo decir que: Oye [Cristiano](https://www.researchgate.net/profile/Cristiano_Araujo2) deja de publicar tanto!!! jejejee...
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
