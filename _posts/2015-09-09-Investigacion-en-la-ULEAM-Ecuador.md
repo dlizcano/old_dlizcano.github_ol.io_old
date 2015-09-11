@@ -60,11 +60,11 @@ En pocas palabras las publicaciones registradas en ISI Web of Science tienen má
 </figure>
 
 ######Se aprecia que:
-La Universidad Católica es la dominante en publicaciones de alto factor de impacto, seguida por la San Francisco de Quito. Lo interesante acá es la ULEAM tiene más publicaciones, con alto factor de impacto, que la 
+La Universidad Católica es la dominante en publicaciones de alto factor de impacto, seguida por la San Francisco de Quito. Lo interesante acá es ver como la ULEAM tiene más publicaciones, con alto factor de impacto, que la 
 Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, más que la Universidad Técnica Particular de Loja y de lejos la ULEAM supera a la Universidad Técnica de Manabí (UTM).  
 
 ###Calidad Vs. Cantidad?
-Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](/images/uleam/reserchgateranking.jpg) tiene un gran peso en el ranking de las instituciones de investigación en Ecuador. Pero también debemos preguntarnos que estrategia adoptar? Muchos artículos sin o con poco factor de impacto? o pocos con alto impacto? En este sentido hay que resaltar la alta Calidad de lo poco que se publica en la ULEAM. 
+Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](https://www.researchgate.net/institutions/Ecuador?order=rgScore&method=total) tiene un gran peso en el ranking de las instituciones de investigación en Ecuador. Pero también debemos preguntarnos que estrategia adoptar? Muchos artículos sin o con poco factor de impacto? o pocos con alto impacto? En este sentido hay que resaltar la alta Calidad de lo poco que se publica en la ULEAM. 
 
 En Conclusión las publicaciones de la ULEAM son de buena calidad!. Yo simplemente me pregunto; que pasaría si los investigadores de la ULEAM tuvieran más apoyo?
 
