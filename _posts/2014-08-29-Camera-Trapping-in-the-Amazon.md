@@ -19,7 +19,7 @@ In a consultancy work for Conservation International - Colombia, I went to the C
   <a href="/images/Amazon/Canoa.jpg"><img src="/images/Amazon/Canoa.jpg"></a>
 </figure>
 
-I thing that I underestimated the effort and the logistics at the beginning, so after four days in the forest we have installed just nine cameras. In that moment we realized that we needed a different approach. Also because we were getting low on food and because everybody was tired of just rice and lentils without salt. Yes we forgot the salt!!!. So after a week camping in the deeps of the forest, we decided to go back to La Pedrera to buy more food, and to plan a new expedition. Of course, this time we decided to include salt and caned sardines to vary the diet. In our second expedition we split in three teams to install the remaining 11 cameras simultaneously. After just two days in the forest the job was done. 
+I think that I underestimated the effort and the logistics at the beginning, so after four days in the forest we have installed just nine cameras. In that moment we realized that we needed a different approach. Also because we were getting low on food and because everybody was tired of just rice and lentils without salt. Yes we forgot the salt!!!. So after a week camping in the deeps of the forest, we decided to go back to La Pedrera to buy more food, and to plan a new expedition. Of course, this time we decided to include salt and caned sardines to vary the diet. In our second expedition we split in three teams to install the remaining 11 cameras simultaneously. After just two days in the forest the job was done. 
 
 Now I really respect the people working with more than 20 camera traps simultaneously. 
 
