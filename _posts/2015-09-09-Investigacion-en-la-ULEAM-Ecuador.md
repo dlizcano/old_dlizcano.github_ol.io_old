@@ -35,7 +35,7 @@ Las instituciones que he seleccionado para comparar a la ULEAM son:
 
 - [Universidad San Francisco de Quito, (USFQ)](http://www.usfq.edu.ec/Paginas/Inicio.aspx). Una universidad privada y "Top" que hace muy buena investigación. A pesar de tener san en el nombre, no es religiosa.
 - [Pontificia Universidad Católica del Ecuador (PUCE)](http://www.puce.edu.ec/). Una universidad de carácter religioso, con unas colecciones increíbles de la Biodiversidad del Ecuador.
-- [Universidad Central del Ecuador (UCE)](http://www.uce.edu.ec/). Es una universidad publica, la mas antigua del Ecuador y tal vez la mas grande en numero de estudiantes. 
+- [Universidad Central del Ecuador (UCE)](http://www.uce.edu.ec/). Es una universidad publica, la más antigua del Ecuador y tal vez la más grande en numero de estudiantes. 
 - [Universidad Técnica Particular del Loja (UTPL)](http://www.utpl.edu.ec/). Una universidad de origen religioso, que también hace muy buena investigación en Biodiversidad y bosques.  
 - [Universidad Técnica de Manabí (UTM)](http://www.utm.edu.ec/). Una universidad publica de carácter regional, de características similares a la ULEAM y ubicada en la capital de Manabí. 
 
@@ -49,10 +49,10 @@ Publicaciones de autores con filiación a una universidad
 </figure>
 
 #####Es muy claro que:
-Hay muchísimas mas publicaciones registradas en la base de datos de Scopus que en ISI Web of Science. Y muy seguramente tiene que ver con que Scopus indexa también 
+Hay muchísimas más publicaciones registradas en la base de datos de Scopus que en ISI Web of Science. Y muy seguramente tiene que ver con que Scopus indexa también 
 memorias de congresos y publicaciones de Elsevier, su propia casa comercial, los cuales no tienen [factor de impacto](https://es.wikipedia.org/wiki/Factor_de_impacto). Del factor de impacto se encarga el Instituto para la Información Científica (Institute for Scientific Information (ISI) de Thomson Reuters, usando una metodología clara y bien establecida.
 
-En pocas palabras las publicaciones registradas en ISI Web of Science tienen mas alto perfil en términos científicos. 
+En pocas palabras las publicaciones registradas en ISI Web of Science tienen más alto perfil en términos científicos. 
 
 ####Y que tal si graficamos solo ISI Web of Science?
 <figure>
@@ -60,16 +60,16 @@ En pocas palabras las publicaciones registradas en ISI Web of Science tienen mas
 </figure>
 
 ######Se aprecia que:
-La Universidad Católica es la dominante en publicaciones de alto factor de impacto, seguida por la San Francisco de Quito. Lo interesante acá es la ULEAM tiene mas publicaciones, con alto factor de impacto, que la 
-Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, mas que la Universidad Técnica Particular de Loja y de lejos la ULEAM supera a la Universidad Técnica de Manabí (UTM).  
+La Universidad Católica es la dominante en publicaciones de alto factor de impacto, seguida por la San Francisco de Quito. Lo interesante acá es la ULEAM tiene más publicaciones, con alto factor de impacto, que la 
+Universidad Central del Ecuador, Incluso y aunque parezca sorprendente, más que la Universidad Técnica Particular de Loja y de lejos la ULEAM supera a la Universidad Técnica de Manabí (UTM).  
 
 ###Calidad Vs. Cantidad?
 Indudablemente el numero de investigadores, tal como lo refleja el ranking de [Researchgate](/images/uleam/reserchgateranking.jpg) tiene un gran peso en el ranking de las instituciones de investigación en Ecuador. Pero también debemos preguntarnos que estrategia adoptar? Muchos artículos sin o con poco factor de impacto? o pocos con alto impacto? En este sentido hay que resaltar la alta Calidad de lo poco que se publica en la ULEAM. 
 
-En Conclusión las publicaciones de la ULEAM son de buena calidad!. Yo simplemente me pregunto; que pasaría si los investigadores de la ULEAM tuvieran mas apoyo?
+En Conclusión las publicaciones de la ULEAM son de buena calidad!. Yo simplemente me pregunto; que pasaría si los investigadores de la ULEAM tuvieran más apoyo?
 
 ###Y que se publica en la ULEAM
-Bueno he bajado de ISI Web of Science las citas de los artículos, y he hecho una nube de palabras con las mas frecuentes en los resúmenes de los artículos.
+Bueno he bajado de ISI Web of Science las citas de los artículos, y he hecho una nube de palabras con las más frecuentes en los resúmenes de los artículos.
 
 ###Y la infaltable nube de palabras.
 <figure>
