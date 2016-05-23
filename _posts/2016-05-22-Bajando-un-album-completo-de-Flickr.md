@@ -12,7 +12,8 @@ comments: true
 share: true
 ---
 
-## Bajando un album completo y los datos exif de Flickr.com
+## Bajando un album completo y los datos exif de Flickr.com.
+
 
 Luego de varios meses en Manta, Ecuador, trabajando como investigador del [DCI-ULEAM](http://www.uleam.edu.ec/] en el proyecto (Fauna de Manabí)[http://faunamanabi.github.io/).
 
@@ -26,9 +27,11 @@ Si bien se puede descargar un álbum completo (set, en el lenguaje de Flickr) co
   <a href="/images/flickr/flickr_album.jpg"><img src="/images/flickr/flickr_album.jpg"></a>
 </figure>
 
-En algún momento pensé que eran muchos clicks, y que sería chévere y divertido poder bajar los albums usando R. Adicionalmente por me preguntaba si al bajar las fotos podría recuperar los datos exif de cada foto.  Luego de algunas horas buscando como podría ser me encontré con  las fantásticas y simples instrucciones de web scraping elaboradas por (Rolf Fredheim)[http://blog.rolffredheim.com/2014/03/web-scraping-scaling-up-digital-data.html]
+En algún momento pensé que eran muchos clicks, y que sería chévere y divertido poder bajar los albums usando R. Adicionalmente por me preguntaba si al bajar las fotos podría recuperar los datos exif de cada foto.  Luego de algunas horas buscando como podría ser me encontré con  las fantásticas y simples instrucciones de web scraping elaboradas por [Rolf Fredheim](http://blog.rolffredheim.com/2014/03/web-scraping-scaling-up-digital-data.html).
 
-Definitivamente lo mejor es trabajar con los API de  Flickr.com. Para lo cual se debe establecer obtener una key para usarlos, (acá pueden encontrar más detalles)[http://www.flickr.com/services/api/misc.api_keys.html]
+
+Definitivamente lo mejor es trabajar con los API de  Flickr.com. Para lo cual se debe establecer obtener una key para usarlos, [acá pueden encontrar más detalles](http://www.flickr.com/services/api/misc.api_keys.html).
+
 
 Al final, termine invirtiendo más horas en entender la estructura de los API de Flickr y desarrollando el código que baja los datos exif y los álbums, que si hubiera bajado cada álbum haciendo click en la flechita de cada uno.
 
