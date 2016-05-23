@@ -12,13 +12,13 @@ comments: true
 share: true
 ---
 
+## Bajando un album completo y los datos exif de Flickr.com
 
-# Bajando un album completo y los datos exif de Flickr.com
-
-Luego de varios meses en Manta, Ecuador, trabajando como investigador del (DCI-ULEAM)[http://www.uleam.edu.ec/] en el proyecto (Fauna de Manabí)[http://faunamanabi.github.io/].
+Luego de varios meses en Manta, Ecuador, trabajando como investigador del [DCI-ULEAM](http://www.uleam.edu.ec/] en el proyecto (Fauna de Manabí)[http://faunamanabi.github.io/).
 
 
-En nuestro proyecto con trampas cámara en Ecuador (Fauna de Manabí)[http://faunamanabi.github.io/], usamos (Flickr.com)[http://www.flickr.com] como un backup para almacenar las fotos del Proyecto. Flickr ofrece algunas ventajas como; una interfaz sencilla, un Terabyte de almacenamiento gratis, geotags y fácil organización de las fotos en albums y colecciones. Hasta el momento son cerca de 15 mil fotos las que hemos obtenido con el proyecto y muchas de ellas están en Flickr y en los computadores de la ULEAM. Sin embargo, el reciente (terremoto de Ecuador)[https://en.wikipedia.org/wiki/2016_Ecuador_earthquake] nos hizo pensar que existía una gran posibilidad de perder los datos del proyecto, los cuales se encuentran almacenados en los discos duros de algunos computadores de la ULEAM.
+En nuestro proyecto con trampas cámara en Ecuador [Fauna de Manabí](http://faunamanabi.github.io/), usamos [Flickr.com](http://www.flickr.com) como un backup para almacenar las fotos del Proyecto. Flickr ofrece algunas ventajas como; una interfaz sencilla, un Terabyte de almacenamiento gratis, geotags y fácil organización de las fotos en albums y colecciones. Hasta el momento son cerca de 15 mil fotos las que hemos obtenido con el proyecto y muchas de ellas están en Flickr y en los computadores de la ULEAM. Sin embargo, el reciente [terremoto de Ecuador](https://en.wikipedia.org/wiki/2016_Ecuador_earthquake) nos hizo pensar que existía una gran posibilidad de perder los datos del proyecto, los cuales se encuentran almacenados en los discos duros de algunos computadores de la ULEAM.
+
 
 Si bien se puede descargar un álbum completo (set, en el lenguaje de Flickr) con un simple click en la flecha de cada álbum.
 
@@ -79,7 +79,7 @@ get_exif <- function (apikey="NA", picture_id=NA){
 {% endhighlight %}
 
 
-### Y ahora el código para bajar el álbum completo (set) y obtener los datos de cada foto en una tabla
+### Y ahora el código para bajar el álbum completo (set) y obtener los datos de cada foto en una tabla.
 
 {% highlight css %}
 #-------------------------------------------------------------------
@@ -105,8 +105,6 @@ workdir <- "C:/Temp/"
 set     <- "72157649989156607" # picture folders
 user_id <- "128565749%40N04"# equivale a: "128565749@N04"
 
-
-
 flickr_get_pic <- function (workdir="NA",set="NA",user_id="NA",apikey="your_API"){
   if(is.na(apikey)){
     print("Need to supply API key for Flicker.com website. \n Get yours at http://www.flickr.com/services/api/misc.api_keys.html")
@@ -121,7 +119,6 @@ flickr_get_pic <- function (workdir="NA",set="NA",user_id="NA",apikey="your_API"
 n <- 500 # pictures per page
 p <- 10 # Number of pages
 
-
 # Downloading the images
 for (i in 1:p) {
 
@@ -133,8 +130,6 @@ for (i in 1:p) {
                  "&per_page=", n,
                  "&page=", i,
                  "&format=rest", sep="")
-
-
 
   raw_data <- getURL(api)
   test<-xmlToList(raw_data)
@@ -171,14 +166,12 @@ ouput<-cbind(data_table,a)
 return(ouput)
 
 }
-
 }
-
 {% endhighlight %}
 
 
 <p>
-
+<p></p>
 </p>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
