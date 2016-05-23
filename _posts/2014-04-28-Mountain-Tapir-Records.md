@@ -17,20 +17,20 @@ Taking as excuse the new package [rMaps](https://github.com/ramnathv/rMaps). I w
 
 #### Why to Update the Mountain Tapir Distribution?
 
-- The information available as map in the red list has more than 10 years old. 
+- The information available as map in the red list has more than 10 years old.
   [Just take a look to the red list info for mountain tapir](http://maps.iucnredlist.org/map.html?id=21473).
 - In the last 10 years researchers have studied mountain tapirs at new locations.
-- New powerful tools to build robust distribution models have been developed. 
+- New powerful tools to build robust distribution models have been developed.
 
 ##### Those are some locations
 
 <iframe src="/content/2.html" width="100%" height="425" scrolling="no" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 
-Click on each point to see the type of evidence: hair, photo, footprint or faeces. 
+Click on each point to see the type of evidence: hair, photo, footprint or faeces.
 
 #### The R code to make it
 
-{% highlight css %}
+```r
 require(rMaps)
 fieldpoints_Diego<-read.csv("C:\\Users\\Diego\\Documents\\CodigoR\\Tapirus_SDM\\data\\T_pin.csv")
 
@@ -44,7 +44,7 @@ for (i in 1:nrow(fieldpoints)){
   as.character(fieldpoints[i,6]), as.character(fieldpoints[i,9]),"</p>", sep=" " )  
 map3$marker(c(fieldpoints[i,8], fieldpoints[i,7]), bindPopup = binpop)
   }
-{% endhighlight %}
+```
 
 
 

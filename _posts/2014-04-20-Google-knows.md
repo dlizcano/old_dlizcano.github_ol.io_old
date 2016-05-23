@@ -12,19 +12,19 @@ comments: true
 share: true
 ---
 
-## Just a small part of Google data-harvesting practices. 
+## Just a small part of Google data-harvesting practices.
 
 Following the post by [http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live](http://seasci.wordpress.com/2013/12/20/it-knows-where-i-live/). I was amaze to know how much Google knows about me.
 
-####Get your info
+#### Get your info
 
 If you use Google maps in your smart phone and you store your locations. This R code is for you. Just download the locations from [Google Takeout](https://accounts.google.com/ServiceLogin) and follow the code.
 
-####Once you have the location file
+#### Once you have the location file
 
 Save it in your hard drive \\data\\location\\ in my case.
 
-{% highlight css %}
+```r
 library(jsonlite)
 library(plyr)
 library(lubridate)
@@ -36,12 +36,12 @@ locs = raw$locations
 names(locs)
 # they're in various formats...
 lapply(locs,class)
-{% endhighlight %}
+```
 
-####Do some simple processing 
+#### Do some simple processing
 
-{% highlight css %}
-# Get columns into useful formats 
+```r
+# Get columns into useful formats
 ldf = data.frame(t=rep(0,nrow(locs)))
 # time is in POSIX * 1000 (milliseconds) format, convert it to useful scale...
 ldf$t = as.numeric(locs$timestampMs)/1000
@@ -53,20 +53,20 @@ ldf$lon = as.numeric(locs$longitudeE7/1E7)
 require(ggplot2)
 require(ggmap)
 DC = get_map(c(-77.05,38.93),11,source='google', color = "bw")
-{% endhighlight %}
+```
 
-####Making the map
-{% highlight css %}
+#### Making the map
+```r
 ggmap(DC) %+% ldf + aes(x = lon, y = lat) +
   stat_binhex(data = ldf, aes(x = lon, y = lat),
                  size = 5, binwidth = c(.01,.01), alpha = 2/4) +
-  scale_fill_gradient(low = "green", high = "red")  + 
+  scale_fill_gradient(low = "green", high = "red")  +
 scale_alpha(range = c(0.00, 0.25), guide = FALSE) +
   theme(legend.position = "none", axis.title = element_blank(), text = element_text(size = 12)) +
   geom_point(data=ldf,aes(x=lon,y=lat), colour="blue", alpha = I(0.05))
-  {% endhighlight %}
+```
 
-##The result
+## The result
 - Were I have been
 <figure>
 	<a href="/images/map1.png"><img src="/images/map1.png"></a>
