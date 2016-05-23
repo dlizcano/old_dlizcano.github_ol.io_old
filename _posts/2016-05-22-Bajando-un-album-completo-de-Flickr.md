@@ -36,7 +36,7 @@ Espero esto le sirva a alguien.
 
 ### Acá el código para obtener los datos exif a partir del nombre de cada foto.
 
-{% highlight css %}
+```r
 #' flickrlist - Get metadata  for items available on Flickr for the picture
 #' @import XML
 #' @import RCurl
@@ -76,12 +76,12 @@ get_exif <- function (apikey="NA", picture_id=NA){
   colnames(info)<-tag
   return(info)
 }
-{% endhighlight %}
+```
 
 
 ### Y ahora el código para bajar el álbum completo (set) y obtener los datos de cada foto en una tabla.
 
-{% highlight css %}
+```r
 #-------------------------------------------------------------------
 # Downloading all Flickr pictures for a set (album)
 # Diego J. Lizcano, 2016
@@ -167,7 +167,7 @@ return(ouput)
 
 }
 }
-{% endhighlight %}
+```
 
 
 <p>

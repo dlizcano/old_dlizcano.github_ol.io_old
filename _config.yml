@@ -11,27 +11,27 @@ owner:
   bio:            "Biologist, Mammal ecology and conservation, R and Linux fan"
   email:          dj.lizcano@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:  dlizcano    
-  facebook:  djlizcano     
-  github:   dlizcano      
-  stackoverflow: 
-  linkedin:  lizcano   
-  500px:  dlizcano    
-  lastfm:         
-  tumblr: 
-  pinterest: 
-  foursquare: 
+  twitter:  dlizcano
+  facebook:  djlizcano
+  github:   dlizcano
+  stackoverflow:
+  linkedin:  lizcano
+  500px:  dlizcano
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
   steam:
-  dribbble: 
+  dribbble:
   # For Google Authorship https://plus.google.com/authorship
   google_plus: DiegoJLizcano/posts
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-50023538-1  
+google_analytics: UA-50023538-1
 google_verify: google214e9032db7a3bda.html
-google_verify: google3166a7e60e811f3e.html     
+google_verify: google3166a7e60e811f3e.html
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -39,9 +39,9 @@ links:
   - title: About
     url: /about/
   - title: CV
-    url: /cv/ 
+    url: /cv/
   - title: Research
-    url: /research/	
+    url: /research/
   - title: Posts
     url: /posts/
   - title: Other
@@ -53,7 +53,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-pygments:    true
+pygments:    false
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
@@ -67,7 +67,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
