@@ -15,20 +15,20 @@ share: true
 ## Opinions. Are they positive or negative?
 Opinion mining has attracted great interest in recent years. One of the most promising applications is analysis of opinions in social networks. Opinion mining in a broad sense is defined as the computational study of opinions, sentiments and emotions expressed in texts.
 
-Following the series of videos from [Paeng Angnakoon](https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ) I try to do the same. However once I applied the code for twits in Spanish the output was none because the lexicons were in English. 
+Following the series of videos from [Paeng Angnakoon](https://www.youtube.com/channel/UCQit1xs6XFVT9LjAFmdGxQQ) I try to do the same. However once I applied the code for twits in Spanish the output was none because the lexicons were in English.
 After some Google searches I found the Spanish lexicons from [Veronica Perez Rosas, Carmen Banea, Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html#SPANISH_SENT_LEXICONS) which I adapted to fit the package [sentiment](https://github.com/timjurka/sentiment), which by the way does not work under the version 3 of R. So the solution was to convert the package to functions. The package sentiment use a naive Bayes as categorizer engine. In a recent email [Carmen Baena ](http://www.carmenbanea.com/) suggested me to use [Weka.](http://www.cs.waikato.ac.nz/ml/weka/) apparently it is a very robust machine learning suite. I hope to find the time to give it a try.
-Another lexicom I am using here is from [Grigori SIDOROV.](http://www.cic.ipn.mx/~sidorov/#Downloads) 
- 
+Another lexicom I am using here is from [Grigori SIDOROV.](http://www.cic.ipn.mx/~sidorov/#Downloads)
+
 ## My Example
 
 I wanted to investigate the opinions in twitter for Cucuta, my town. Also for Santurban a polemic region were gold mining is colliding with Paramo conservation, and the Catatumbo region another complex and even dangerous place in Norte de Santander, Colombia. In Catatumbo coca cultivation, African palm cultivation, guerrillas, paramilitary groups, Colombian army and corruption have made an explosive cocktail.    
 
-####Get the code from my [Github](https://github.com/dlizcano/tuit_sentimiento)
+#### Get the code from my [Github](https://github.com/dlizcano/tuit_sentimiento)
 
-####To follow the code first get twitter access from R
+#### To follow the code first get twitter access from R
 
  [Paeng Angnakoon](https://www.youtube.com/watch?v=mJVcANlkxU8) explain it very well in her first video.
-{% highlight css %}
+```r
 library(twitteR)
 library(ROAuth)
 library(plyr)
@@ -46,7 +46,7 @@ consumerSecret = "XXXXXXXXXXXXXXXXXXXXXXXXXX" # use yours
 Cred <- OAuthFactory$new(consumerKey=consumerKey,
                          consumerSecret=consumerSecret,
                          requestURL=requestURL,
-                         accessURL=accessURL, 
+                         accessURL=accessURL,
                          authURL=authURL)
 Cred$handshake(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl") )
 6235667
@@ -55,11 +55,11 @@ registerTwitterOAuth(Cred)
 ## Future use
 load("twitter authentication.Rdata")
 registerTwitterOAuth(Cred)
-{% endhighlight %}
+```
 
-####Twitter scrape  #Catatumbo #SanTurban #Cucuta  
+#### Twitter scrape  #Catatumbo #SanTurban #Cucuta  
 
-{% highlight css %}
+```r
 Catatumbo.list <- searchTwitter('Catatumbo', n=1000, cainfo="cacert.pem")  
 Catatumbo.df = twListToDF(Catatumbo.list)  
 write.csv(Catatumbo.df, file='C:/temp/CatatumboTweets.csv', row.names=F)
@@ -71,10 +71,10 @@ write.csv(SanTurban.df, file='C:/temp/SanTurbanTweets.csv', row.names=F)
 Cucuta.list <- searchTwitter('Cucuta', n=1000, cainfo="cacert.pem")  
 Cucuta.df = twListToDF(Cucuta.list)  
 write.csv(Cucuta.df, file='C:/temp/CucutaTweets.csv', row.names=F)
-  {% endhighlight %}
+```
 
-####Loading emotion, polarity and score.sentiment functions       
-{% highlight css %}
+#### Loading emotion, polarity and score.sentiment functions       
+```r
 source("classify_polarity.R")
 source("classify_emotion.R")
 source("create_matrix.R")
@@ -111,11 +111,11 @@ score.sentiment = function(sentences, pos.words, neg.words, .progress='none')
   }, pos.words, neg.words, .progress=.progress )  
   scores.df = data.frame(score=scores, text=sentences)  
   return(scores.df)  
-} 
-  {% endhighlight %}
+}
+```
 
-####Some scores
-{% highlight css %}
+#### Some scores
+```r
 Catatumbo.scores = score.sentiment(DatasetCatatumbo$text, pos.words,neg.words, .progress='text')
 SanTurban.scores = score.sentiment(DatasetSanTurban$text, pos.words,neg.words, .progress='text')
 Cucuta.scores = score.sentiment(DatasetCucuta$text, pos.words,neg.words, .progress='text')
@@ -123,31 +123,31 @@ Cucuta.scores = score.sentiment(DatasetCucuta$text, pos.words,neg.words, .progre
 Catatumbo.scores$Team = 'Catatumbo'
 SanTurban.scores$Team = 'SanTurban'
 Cucuta.scores$Team = 'Cucuta'
-  {% endhighlight %}
+```
 
-####Make the graph comparing the 3 data sets	              
+#### Make the graph comparing the 3 data sets	              
 
-{% highlight css %}
+```r
 all.scores = rbind(Catatumbo.scores, SanTurban.scores, Cucuta.scores)
 ggplot(data=all.scores) + # ggplot works on data.frames, always
   geom_bar(mapping=aes(x=score, fill=Team), binwidth=1) +
   facet_grid(Team~.) + # make a separate plot for each hashtag
   theme_bw() + scale_fill_brewer() # plain display, nicer colors
-  {% endhighlight %}
+```
 
  <figure>
 	<a href="/images/opinionscore.jpg"><img src="/images/opinionscore.jpg"></a>
 </figure>
-  
+
 It is interesting to see how Catatumbo has the worst score and Santurban some few really high scores >3.   
 
-##What about Santurban?
+## What about Santurban?
 
 According to a prominent biodiversity guru in Colombia and the high-lines of a newspaper, [Santurban polarized the country.](http://www.elcolombiano.com/BancoConocimiento/S/santurban_polarizo_el_pais_brigitte_baptiste/santurban_polarizo_el_pais_brigitte_baptiste.asp)
-So I wanted to describe the Santurban opinions in twitter in a systematic way. 
+So I wanted to describe the Santurban opinions in twitter in a systematic way.
 
-{% highlight css %}
-# first some processing 
+```r
+# first some processing
 SanTurban_txt = sapply(SanTurban.list, function(x) x$getText())
 # Prepare text for the analysis
 SanTurban_txt = gsub("(RT|via)((?:\\b\\W*@\\w+)+)", "", SanTurban_txt)
@@ -169,7 +169,7 @@ try.error = function(x){
   # result
   return(y)
 }
-# lower case using try.error with sapply 
+# lower case using try.error with sapply
 SanTurban_txt = sapply(SanTurban_txt, try.error)
 # remove NAs in SanTurban_txt
 SanTurban_txt = SanTurban_txt[!is.na(SanTurban_txt)]
@@ -185,21 +185,21 @@ class_pol = classify_polarity(SanTurban_txt, algorithm="bayes")
 # get polarity best fit
 polarity = class_pol[,4]
 # data frame with results
-sent_df = data.frame(text=SanTurban_txt, emotion=emotion, 
+sent_df = data.frame(text=SanTurban_txt, emotion=emotion,
                      polarity=polarity, stringsAsFactors=FALSE)
 # sort data frame
 sent_df = within(sent_df,
              emotion <- factor(emotion, levels=names(sort(table(emotion), decreasing=TRUE))))
-  {% endhighlight %}
+```
 
 #### Now the graphs
 
-{% highlight css %}
+```r
 # plot distribution of emotions
 ggplot(sent_df, aes(x=emotion)) +
   geom_bar(aes(y=..count.., fill=emotion)) +
   scale_fill_brewer(palette="Dark2") +
-  labs(x="emotion categories", y="number of tweets", 
+  labs(x="emotion categories", y="number of tweets",
        title = "Sentiment Analysis of Tweets about SanTurban\n(classification by emotion)",
        plot.title = element_text(size=12))
 
@@ -210,7 +210,7 @@ ggplot(sent_df, aes(x=polarity)) +
   labs(x="polarity categories", y="number of tweets",
        title = "Sentiment Analysis of Tweets about SanTurban\n(classification by polarity)",
        plot.title = element_text(size=12))
-{% endhighlight %}
+```
 
 
 - First by Emotion
@@ -224,7 +224,7 @@ ggplot(sent_df, aes(x=polarity)) +
 </figure>
 
 ## It is Clear:
-- Most of Santurban opinions are positive. I guess they are coming from the government agencies.  Or is the Bayesian classifier skew to positive scores? 
-- The country is not polarized at all. At least in twitter the positive opinions are more frequent. 
+- Most of Santurban opinions are positive. I guess they are coming from the government agencies.  Or is the Bayesian classifier skew to positive scores?
+- The country is not polarized at all. At least in twitter the positive opinions are more frequent.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

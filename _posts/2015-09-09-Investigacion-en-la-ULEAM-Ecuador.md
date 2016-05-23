@@ -15,7 +15,7 @@ share: true
 
 ## Mi tiempo en Ecuador.
 
-Pronto voy a completar un año de haber llegado a Manta, Ecuador, a trabajar como investigador del DCI-ULEAM [http://www.uleam.edu.ec/](http://www.uleam.edu.ec/) en el proyecto Fauna de Manabí [http://faunamanabi.github.io/](http://faunamanabi.github.io/). 
+Pronto voy a completar un año de haber llegado a Manta, Ecuador, a trabajar como investigador del DCI-ULEAM [http://www.uleam.edu.ec/](http://www.uleam.edu.ec/) en el proyecto Fauna de Manabí [http://faunamanabi.github.io/](http://faunamanabi.github.io/).
 La verdad debo confesar que Ecuador no me ha tratado mal, a pesar de la perdida de Kaila y algunas dificultades al tratar de adaptarme a las particularidades culturales del Ecuador. Aunque ya lo logré, la adaptación no fue fácil, muy a pesar de ser de Colombiano, y tal vez por el formato cuadriculado que he adquirido en Inglaterra, el país donde estudié, y por haber vivido en USA antes de venir acá.
 
 ## Qué tan buena y visible es la investigación que se hace en la ULEAM?
@@ -80,7 +80,7 @@ Bueno he bajado de ISI Web of Science las citas de los artículos, y he hecho un
 Acá Ud. puede acceder a las publicaciones de la ULEAM como un archivo para [Mendeley](/content/uleam.ris) [.bib](/content/uleam.bib) o [EndNote](/content/uleam_endnote.xml) y este es el código para que lo pueda replicar:
 
 
-{% highlight css %}
+```r
 library(plyr)
 library(RefManageR)
 library(tm)
@@ -118,7 +118,7 @@ png("wordcloud.png", width=1000,height=800)
 wordcloud(words=names(freq), freq=freq, scale=c(8,.5), min.freq=2,
           max.words=Inf, random.order=F, rot.per=.15, colors=pal2)
 dev.off()
-{% endhighlight %}
+```
 
 Luego de revisar una por una las referencias de las publicaciones ULEAM debo decir que: Oye [Cristiano](https://www.researchgate.net/profile/Cristiano_Araujo2) deja de publicar tanto!!! jejejee...
 <p>

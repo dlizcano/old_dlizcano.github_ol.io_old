@@ -52,7 +52,7 @@ Sorprendentemente muchos de sus párrafos son alegres, seguido por algunos trist
 
 Si desea repetir este análisis o hacer uno parecido. Acá está el código de R:
 
-{% highlight css %}
+```r
 Discurso <- read.csv("discurso_rene.txt", header = F)
 Discurso$text<-as.factor(Discurso$V1)
 Discurso.scores = score.sentiment(Discurso$text, pos.words,neg.words, .progress='text')
@@ -176,7 +176,7 @@ word_freqs = sort(rowSums(m), decreasing = TRUE)
 dm = data.frame(word = names(word_freqs), freq = word_freqs)
 
 wordcloud(dm$word, dm$freq, random.order = FALSE, colors = brewer.pal(10, "Dark2"))
-{% endhighlight %}
+```
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
