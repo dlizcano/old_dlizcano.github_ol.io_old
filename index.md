@@ -8,11 +8,11 @@ image:
   credit: Leaves, Silver Spring, MD, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
-I work as professional-services consultant, with a focus on strategic matters around ecology and biodiversity conservation. I am especially interested in helping companies to take science and data based decisions. 
+I work as professional-services consultant, with a focus on strategic matters around ecology and biodiversity conservation. I am especially interested in helping companies to take science and data based decisions.
 
-Most recently, I’ve been working on monitoring wildlife and understanding deforestation. This is also the focus of my consulting practice.
+Most recently, I have been working on monitoring wildlife and understanding deforestation. This is also the focus of my consulting practice.
 
-##This site hosts:
+## This site hosts:
 
 * my blog
 * a description of my research interests
