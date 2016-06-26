@@ -6,7 +6,7 @@ category:
 tags: [Camera trap, ciencia, R, trampas cámara, Slidify, presentation]
 image:
   feature: texture-feature-11.jpg
-  credit: Araceae leaf, Ecuador. Fauna de Manabi
+  credit: Araceae leaf, Mindo, Ecuador.
   creditlink: https://500px.com/dlizcano
 comments: true
 share: true
@@ -16,7 +16,8 @@ share: true
 
 Recientemente he estado preparando un curso para los investigadores de WCS en Quito, sobre métodos jerárquicos en ecología. Mientras preparaba el contenido del curso, pensé que seria interesante hacer una presentación usando el paquete [Slidify](http://slidify.github.io/), y en el proceso aprender un poco mas de R Markdown.  
 
-### Acá la [presentación](https://dlizcano.github.io/IntroOccuPresent)
+### Acá la [presentación.](https://dlizcano.github.io/IntroOccuPresent)
 
+<iframe src="https://dlizcano.github.io/IntroOccuPresent" width="100%" height="425" scrolling="no" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
