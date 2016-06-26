@@ -19,7 +19,7 @@ Recientemente he estado preparando un curso para los investigadores de WCS en Qu
 ### Acá la [presentación.](https://dlizcano.github.io/IntroOccuPresent)
 
 
-<object data="https://dlizcano.github.io/IntroOccuPresent" width="400" height="300" type="text/html">
+<object data="https://dlizcano.github.io/IntroOccuPresent" width="25%" height="300" type="text/html">
     Presentation
 </object>
 
