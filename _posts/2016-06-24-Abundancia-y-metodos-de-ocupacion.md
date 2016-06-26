@@ -3,7 +3,7 @@ layout: post
 title: "Introducción a la abundancia con métodos de ocupación"
 modified: 2016-05-23 01:10:36 -0500
 category:
-tags: [Camera trap, ciencia, R, trampas cámara, Slidify, presentation]
+tags: [Camera trap, ciencia, R, trampas cámara, Slidify, presentation, Hierarchical modeling]
 image:
   feature: texture-feature-11.jpg
   credit: Araceae leaf, Mindo, Ecuador.
@@ -16,12 +16,18 @@ share: true
 
 Recientemente he estado preparando un curso para los investigadores de WCS en Quito, sobre métodos jerárquicos en ecología. Mientras preparaba el contenido del curso, pensé que seria interesante hacer una presentación usando el paquete [Slidify](http://slidify.github.io/), y en el proceso aprender un poco mas de R Markdown.  
 
-### Acá la [presentación.](https://dlizcano.github.io/IntroOccuPresent)
+#### [Slidify](http://slidify.github.io/) es increíble.
+
+El poder hacer presentaciones con la magia de HTML5 desde R, hacen de [Slidify](http://slidify.github.io/) un fantástico paquete. Sin embargo no se emocionen mucho, ya que no tiene la capacidad de control fino del Powerpoint. Pero esta limitacion, al final debe ser vista como una oportunidad para concentrarse en el contenido y no en la forma.   
+
+
+### Click [Acá para ver la presentación](https://dlizcano.github.io/IntroOccuPresent).
 
 
 <object data="https://dlizcano.github.io/IntroOccuPresent" width="400" height="300" type="text/html">
-    Presentation
+    Presentation.
 </object>
+
 
 
 <p>
