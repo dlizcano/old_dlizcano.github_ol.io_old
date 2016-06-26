@@ -28,6 +28,8 @@ I wanted to investigate the opinions in twitter for Cucuta, my town. Also for Sa
 #### To follow the code first get twitter access from R
 
  [Paeng Angnakoon](https://www.youtube.com/watch?v=mJVcANlkxU8) explain it very well in her first video.
+
+ 
 ```r
 library(twitteR)
 library(ROAuth)
