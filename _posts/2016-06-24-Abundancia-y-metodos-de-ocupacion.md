@@ -18,6 +18,7 @@ Recientemente he estado preparando un curso para los investigadores de WCS en Qu
 
 ### Acá la [presentación.](https://dlizcano.github.io/IntroOccuPresent)
 
-<iframe src="https://dlizcano.github.io/IntroOccuPresent" width="100%" height="425" scrolling="no" style="display:block; margin: 0 auto;">&nbsp;</iframe>
+<embed src="https://dlizcano.github.io/IntroOccuPresent" width=500 height=450 />
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
