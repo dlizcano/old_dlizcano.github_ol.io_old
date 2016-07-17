@@ -16,18 +16,19 @@ share: true
 
 Recientemente he estado preparando un curso para los investigadores de WCS en Quito, sobre métodos jerárquicos en ecología. Mientras preparaba el contenido del curso, pensé que seria interesante hacer una presentación usando el paquete [Slidify](http://slidify.github.io/), y en el proceso aprender un poco mas de R Markdown.  
 
-#### [Slidify](http://slidify.github.io/) es increíble.
+#### [Slidify](http://slidify.github.io/) es increíble!!!.
 
-El poder hacer presentaciones con la magia de HTML5 desde R, hacen de [Slidify](http://slidify.github.io/) un fantástico paquete. Sin embargo no se emocionen mucho, ya que no tiene la capacidad de control fino del Powerpoint. Pero esta limitacion, al final debe ser vista como una oportunidad para concentrarse en el contenido y no en la forma.   
-
-
-### Click [Acá para ver la presentación](https://dlizcano.github.io/IntroOccuPresent).
+El poder hacer presentaciones con la magia de HTML5 desde R, hacen de [Slidify](http://slidify.github.io/) un fantástico paquete. Sin embargo, no se emocionen mucho, ya que Slidify no tiene la capacidad de control fino del Powerpoint. Pero esta limitación, al final debe ser vista como una oportunidad para concentrarse mucho mas en el contenido y no en la forma.   
 
 
-<object data="https://dlizcano.github.io/IntroOccuPresent" width="400" height="300" type="text/html">
+### [Click Acá para ver la presentación](https://dlizcano.github.io/IntroOccuPresent).
+
+
+<object data="https://dlizcano.github.io/IntroOccuPresent" %width="50" %height="40" border="1" type="text/html">
     Presentation.
 </object>
 
+Avance con las teclas del cursor.  
 
 
 <p>
