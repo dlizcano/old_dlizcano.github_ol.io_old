@@ -26,7 +26,7 @@ El poder hacer presentaciones con la magia de HTML5 desde R, hacen de [Slidify](
 Avance con las teclas del cursor. Use F para ver en pantalla completa y W para ver "wide".  
 
 
-![Slidify](occu/occu_wcs.jpg)
+![Slidify](images/occu/occu_wcs.jpg)
 
 
 <p>
