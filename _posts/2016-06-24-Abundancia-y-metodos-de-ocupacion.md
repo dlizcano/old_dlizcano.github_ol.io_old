@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducción a la abundancia con métodos de ocupación"
-modified: 2016-05-23 01:10:36 -0500
+modified: 2016-15-23 01:10:36 -0500
 category:
 tags: [Camera trap, ciencia, R, trampas cámara, Slidify, presentation, Hierarchical modeling]
 image:
@@ -21,14 +21,12 @@ Recientemente he estado preparando un curso para los investigadores de WCS en Qu
 El poder hacer presentaciones con la magia de HTML5 desde R, hacen de [Slidify](http://slidify.github.io/) un fantástico paquete. Sin embargo, no se emocionen mucho, ya que Slidify no tiene la capacidad de control fino del Powerpoint. Pero esta limitación, al final debe ser vista como una oportunidad para concentrarse mucho mas en el contenido y no en la forma.   
 
 
-### [Click Acá para ver la presentación](https://dlizcano.github.io/IntroOccuPresent).
+### [Click Acá para ver la presentación.](https://dlizcano.github.io/IntroOccuPresent){:target="_blank"}  
+
+Avance con las teclas del cursor. Use F para ver en pantalla completa y W para ver "wide".  
 
 
-<object data="https://dlizcano.github.io/IntroOccuPresent" %width="50" %height="40" border="1" type="text/html">
-    Presentation.
-</object>
-
-Avance con las teclas del cursor.  
+![Slidify](occu/occu_wcs.jpg)
 
 
 <p>
