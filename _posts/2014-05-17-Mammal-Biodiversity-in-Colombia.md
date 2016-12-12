@@ -12,23 +12,23 @@ comments: true
 share: true
 ---
 
-## Mammal Collection in Colombia.
+## Mammal records in Colombia
 
-Disappointed because the last [report of Colombia to the CBD](http://www.pnud.org.co/sitio.shtml?apc=i1-----&x=75608#.U3b1wfldV8G) do not mention how much Colombia knows his biodiversity, I decided to carry a basic analysis using mammal data and R.
+Disappointed by the last [report of Colombia to the CBD](http://www.pnud.org.co/sitio.shtml?apc=i1-----&x=75608#.U3b1wfldV8G) that does not mention how much Colombia knows about its biodiversity, I decided to carry out a basic analysis using mammal data and R.
 
-In my opinion the report is only focus on ecosystem services and the only mention of biodiversity loss is trough deforestation. But my opinion on this matter will be subject of another post.
+In my opinion the report is only focused on ecosystem services and biodiversity loss is only mentioned as an impact of deforestation. But my opinion on this matter will be the subject of another post.
 
 ## My Example
 
-First I downloaded the mammal data set for Colombia from [GBIF, which you can get here](http://www.gbif.org/occurrence/search?TAXON_KEY=359&COUNTRY=CO).
-The data set has 85318 records (probably more if you get it after May 2014). From those records I used the one with hard evidence: the ones having preserved specimens, eliminating 1893 observations, mainly from [iNaturalist](http://www.inaturalist.org/) and [Corantioquia.](http://www.corantioquia.gov.co/)
+First, I downloaded the mammal data set for Colombia from [GBIF, which you can get here](http://www.gbif.org/occurrence/search?TAXON_KEY=359&COUNTRY=CO).
+The data set has 85318 records (probably more if you get it after May 2014). From those records I selected those with hard evidence, i.e., the ones having preserved specimens, eliminating 1893 observations, mainly from [iNaturalist](http://www.inaturalist.org/) and [Corantioquia.](http://www.corantioquia.gov.co/)
 
-Some georeferences were really bad made, plotting points outside Colombia. So I decided to overwrite those coordinates using NAs. At the end I used just 36031 georeferenced points to make the maps, less than half the total data set.  It is sad to discover that more than half the records are bad or not georeferenced.
+Some georeferences were really wrongly made, plotting points outside Colombia. So I decided to overwrite those coordinates using NAs. At the end I used only 36031 georeferenced points, less than half of the total data set, to generate maps.  It is sad to discover that more than half of the records are wrong or not georeferenced.
 
 Before making the maps I fixed some issues, such as empty records and the 8200001422-01 problem, which you can see in detail at [the end of this post.](http://tapirologist.wordpress.com/2013/06/04/biodiversity-by-colombian-institutions/)
 
 
-#### Plotting all the records the map looks like this.
+#### Plotting all the records, the map looks like this:
 <figure>
 	<img src="/images/mammal/map1.png">
 </figure>
@@ -83,7 +83,7 @@ map1<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 
 ```
 
-#### Putting colors to each collection, the map looks like this.  
+#### Adding colors by collection, the map looks like this.  
 <figure>
 	<a href="/images/mammal/map2.png"><img src="/images/mammal/map2.png"></a>
 </figure>
@@ -101,7 +101,7 @@ map2<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
 
 There are some problems. ROM is duplicated and there are weird institutions such as “O”. But overall you can see that the only Colombian institutions reporting mammals to GBIF are ICN and IAvH. It is sad that other large mammal collections such as Universidad del Valle, Universidad de Antioquia, Universidad del Cauca, and Universidad Javeriana are not reporting data to GBIF.
 
-#### Putting a hexagons of approx 100 km around each collection point we can discover places undersampled in the mammal collections.
+#### Adding a hexagon of approx 100 km around each collection point we can discover places undersampled in mammal collections
 <figure>
 	<a href="/images/mammal/map3.png"><img src="/images/mammal/map3.png"></a>
 </figure>
@@ -114,12 +114,12 @@ map3<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
               size = .5, binwidth = c(.5,.5), alpha = 2/4,data = bigtable) + theme_bw()
 ```
 
-#### What about if we compare the Colombian institutions against the others?	              
+#### What about contrasting Colombian institutions against other foreign ones?	              
 <figure>
 	<a href="/images/mammal/map4.png"><img src="/images/mammal/map4.png"></a>
 </figure>
 
-Well the places were mammals have been collected by Colombian institutions are less.
+Well the places were mammals have been collected by Colombian institutions are fewer.
 
 ```r
 ##### Colombia vs International
@@ -128,11 +128,11 @@ map4<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
                           facet_wrap(~ int_col) + theme_bw()
 ```
 
-#### Which are those countries and what kind of mammals do they have?
+#### Which are those international countries and what kind of mammals do they have?
 <figure>
 	<a href="/images/mammal/bar1.png"><img src="/images/mammal/bar1.png"></a>
 </figure>
-Bats are the most popular guys in collections and the US is the winner.
+Bats are the most popular species in collections and the US is the winner.
 
 ```r
 ### bar graph by country and order collected
@@ -144,9 +144,9 @@ barcountry<-ggplot(bigtable, aes(publishingcountry, fill=order_)) +
 <figure>
 	<a href="/images/mammal/mammalpeak.png"><img src="/images/mammal/mammalpeak.png"></a>
 </figure>
-The records start before 1800 and end in 2006. Interesting: There is a big peak in 1967
+The records start before 1800 and end in 2006. Interesting: There is a big peak in 1967.
 
-Unfortunately that huge collection peak do not feed a Colombian institution.
+Unfortunately that huge collection peak do not correspond to a Colombian institution.
 <figure>
 	<a href="/images/mammal/bar2.png"><img src="/images/mammal/bar2.png"></a>
 </figure>
@@ -179,14 +179,14 @@ ggplot(bigtable, aes(year)) + geom_bar() + xlim(1850, 2006) +
 	<a href="/images/mammal/Marinkelle1.png"><img src="/images/mammal/Marinkelle1.png"></a>
 	<a href="/images/mammal/Marinkelle2.png"><img src="/images/mammal/Marinkelle2.png"></a>
 </figure>
-The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from [Universidad de los Andes at Bogota,](http://www.uniandes.edu.co) was very active collecting bats. Probably searching for parasites. Now I regret I never took his class while I was Biology student in Universidad de los Andes.
+The great professor [Cornelis J. Marinkelle](http://www.ncbi.nlm.nih.gov/pubmed?term=Marinkelle%20CJ%5BAuthor%5D&cauthor=true&cauthor_uid=23035642) from [Universidad de los Andes in Bogota,](http://www.uniandes.edu.co) was very active collecting bats. Probably searching for parasites. Now I regret that I never took his class while I was a Biology student at Universidad de los Andes.
 
 <figure class="third">
 	<img src="/images/mammal/CORNELIS_MARINKELLE.jpg">
 	<figcaption>Cornelis J. Marinkelle in a picture from BBC Mundo.</figcaption>
 </figure>
 
-He was also an avid bird egg collector. [Here a note from BBC mundo about him.](http://www.bbc.co.uk/mundo/cultura_sociedad/2009/05/090511_coleccion_marinkelle.shtml?s)
+He was also an avid bird egg collector. [Here's a note from BBC mundo about him.](http://www.bbc.co.uk/mundo/cultura_sociedad/2009/05/090511_coleccion_marinkelle.shtml?s)
 
 ```r
 data1967<-subset(bigtable, year=="1967") # subset of that year
@@ -210,8 +210,8 @@ map5<-mapbase + geom_point(aes(x = decimallongitude, y = decimallatitude, group 
   facet_wrap(~ year,nrow =3) + theme_bw()
 ```
 
-#### The last question is why there are not more records for ICN and IAvH after 2006?
-Are they not collecting any more or simply do not updating their data to GBIF?
+#### The last question is why are not there more records from ICN and IAvH after 2006?
+Are they not collecting any more or simply not updating their data to GBIF?
 
 I will appreciate any comment.
 
