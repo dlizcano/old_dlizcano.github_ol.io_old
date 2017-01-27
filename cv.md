@@ -13,8 +13,12 @@ image:
 ---
 
 
+<figure>
+	<a href="/images/CV/Visual_CV2017.png"><img src="/images/CV/Visual_CV2017.png"></a>
+	<figcaption><a href="/content/Visual_CV_2017.pdf" title="Visual CV. Made in R.</a>.</figcaption>
+</figure>
 
-* Ph.D. Biodiversity Management. 2006. University of Kent, Canterbury, UK 
-* BSc. Biology. 1996. Universidad de los Andes, Bogotá, Colombia 
-* [Detailed CV ](/content/CV_Lizcano_2014_I.pdf) in PDF
-* [Hoja de vida en Español ](/content/Hvida_Lizcano_2014_I_latex.pdf) in PDF
+
+* [Graphical CV ](/content/Visual_CV_2017.pdf) in PDF
+* [Detailed CV ](/content/CV-2016-Enlish.pdf) in PDF
+* [Hoja de vida en Español ](/content/Hvida_Lizcano_2016_I.pdf) in PDF
