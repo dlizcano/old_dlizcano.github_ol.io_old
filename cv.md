@@ -15,7 +15,7 @@ image:
 
 <figure>
 	<a href="/images/CV/Visual_CV2017.png"><img src="/images/CV/Visual_CV2017.png"></a>
-	<figcaption><a href="/content/Visual_CV_2017.pdf" title="Visual CV. Made in R.</a>.</figcaption>
+	
 </figure>
 
 
