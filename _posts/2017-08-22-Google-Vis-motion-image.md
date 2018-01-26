@@ -12,7 +12,7 @@ The gvisMotionChart function reads a data.frame and creates text output referrin
 
 #### Areas in GCS
 
-<iframe width="100%" height="600px" frameborder="0" src="content/chart_GCS.html">
+<iframe width="100%" height="600px" frameborder="0" src="http://dlizcano.github.io/content/chart_GCS.html">
 </iframe>
 
 #### Three Up
