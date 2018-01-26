@@ -17,15 +17,3 @@ The gvisMotionChart function reads a data.frame and creates text output referrin
 
 #### Three Up
 
-
-
-Apply the `third` class like so to display three images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="third">
-	<img src="/images/image-filename-1.jpg">
-	<img src="/images/image-filename-2.jpg">
-	<img src="/images/image-filename-3.jpg">
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
-{% endhighlight %}
