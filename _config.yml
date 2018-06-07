@@ -20,21 +20,21 @@ title                    : "Diego J. Lizcano"
 title_separator          : "-"
 name                     : "Diego J. Lizcano"
 description              : "Diego J. Lizcano personal website."
-url                      : http://dlizcano.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://dlizcano.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : dlizcano # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "dlizcano" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : dlizcano # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "dlizcano" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:           
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : djlizcano
+    appid                : "djlizcano"
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
@@ -101,31 +101,31 @@ analytics:
 # Site Author
 author:
   name             : "Diego J. Lizcano"
-  avatar           : bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Wildliofe Biologist, Mammal ecology and conservation, R and Linux fan."
   location         : "Bogota"
-  email            : diego.Lizcano@tnc.org
+  email            : "diego.Lizcano@tnc.org"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : diegolizcano
+  flickr           : "diegolizcano"
   facebook         :
   foursquare       :
-  github           : dlizcano
+  github           : "dlizcano"
   gitlab           :
-  google_plus      : DiegoJLizcano/posts
+  google_plus      : "DiegoJLizcano/posts"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : lizcano # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "lizcano" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : dlizcano
+  twitter          : "dlizcano"
   vine             :
   weibo            :
   xing             :
