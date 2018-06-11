@@ -3,10 +3,10 @@ layout: post
 title: "Animado mapas. Fuegos en Colombia"
 modified: 2018-05-23 10:10:36 -0500
 category:
-tags: [ciencia, R, map, Colombia, ]
+tags: [ciencia, R, map, Colombia, Fire, fuego, MODIS]
 image:
   feature: texture-feature-24.jpg
-  credit: Bajo Caguan, Colombia.
+  credit: Bajo Caguan, Colombia. Diego J. Lizcano
   creditlink: https://500px.com/dlizcano
 comments: true
 share: true
