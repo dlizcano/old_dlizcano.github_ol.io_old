@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-## Los datos de fuego. 
+## Los datos de fuego.
 
 ![Terra](/images/firemap/terra.JPG)  
 
@@ -60,7 +60,7 @@ gganimate(fire_col_map, ani.width =  600, ani.height = 800, "fire2.gif", title_f
 
 ## Y este es el resultado
 
-![Terra](/images/firemap/fire2.jpg)  
+![Terra](/images/firemap/fire2.gif)  
 
 
 
