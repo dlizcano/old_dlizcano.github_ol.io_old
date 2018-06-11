@@ -12,9 +12,9 @@ comments: true
 share: true
 ---
 
-## Los datos de fuego
+## Los datos de fuego. 
 
-![Terra](/images/firemap/terra.jpg)  
+![Terra](/images/firemap/terra.JPG)  
 
 Los satélites Terra y Aqua han estado orbitando la tierra desde hace mas de 10 años. Unos de los sensores que poseen estos satélites [(MODIS)](https://modis.gsfc.nasa.gov/about/) ha registrando entre otros, los sitios con anomalías térmicas, las cuales equivalen a fuegos e incendios forestales. Gracias a la universidad de Maryland, estos datos han sido organizados en el repositorio [FIRMS](https://firms.modaps.eosdis.nasa.gov/download/).
 
