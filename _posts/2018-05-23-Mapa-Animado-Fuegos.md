@@ -22,9 +22,11 @@ Los satélites Terra y Aqua han estado orbitando la tierra desde hace mas de 10 
 
 Hace unos días junto con [Carlos Pedraza](https://twitter.com/qpedraza) bajamos los datos de Colombia para ver su relación con el cambio de uso de la tierra. Si bien los datos para Colombia están en un archivo manejable, en algún momento pensé que seria buena idea hacer una animación de la evolución de los fuegos.
 
+
 Ademas...que mejor excusa para hacer una animación, que aprender las nuevas funcionalidades de los paquetes [SF](https://cran.r-project.org/web/packages/sf/vignettes/sf1.html) y [gganimate](https://github.com/dgrtwo/gganimate).
 
-#### Aqui el codigo
+
+#### Aqui el Código
 
 ```r
 library(tidyverse) # dev ggplot version required: devtools::install_github("hadley/ggplot2")
