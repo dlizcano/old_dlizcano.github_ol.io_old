@@ -1,7 +1,7 @@
-title:            Diego J. Lizcano
-description:      Diego J. Lizcano personal website.
+title: Diego J. Lizcano
+description: Diego J. Lizcano personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://dlizcano.github.io
+url: http://dlizcano.github.io
 disqus_shortname: dlizcano
 
 # Theme Settings
@@ -10,25 +10,25 @@ disqus_shortname: dlizcano
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 
 
 # Owner/author information
 owner:
-  name:           Diego J. Lizcano
-  avatar:         bio-photo5.jpg
-  bio:            "Biologist, Mammal ecology and conservation, R and Linux fan"
-  email:          dj.lizcano@gmail.com
+  name: Diego J. Lizcano
+  avatar: bio-photo5.jpg
+  bio: "Biologist, Mammal ecology and conservation, R and Linux fan"
+  email: dj.lizcano@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:  dlizcano
-  facebook:  djlizcano
-  github:   dlizcano
+  twitter: dlizcano
+  facebook: djlizcano
+  github: dlizcano
   stackoverflow:
-  linkedin:  lizcano
-  500px:  dlizcano
+  linkedin: lizcano
+  500px: dlizcano
   instagram: walking_tapir
   tumblr:
   pinterest:
@@ -63,13 +63,15 @@ links:
  #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-pygments:    false
-markdown:    kramdown
+timezone: America/New_York
+future: true
+pygments: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   date
+permalink: date
 
 kramdown:
   auto_ids: true
