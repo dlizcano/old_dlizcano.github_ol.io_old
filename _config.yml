@@ -69,6 +69,7 @@ pygments: true
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: date
+encoding: UTF-8
 
 kramdown:
   auto_ids: true
