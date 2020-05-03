@@ -10,7 +10,7 @@ disqus_shortname: dlizcano
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme : "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
@@ -65,10 +65,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: America/New_York
 future: true
-pygments: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+pygments: true
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: date
@@ -79,6 +76,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   use_coderay: false
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
   coderay:
     coderay_line_numbers:
@@ -87,7 +86,31 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-
+include: 
+  - .htaccess
+exclude: 
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
 theme: jekyll-theme-minimal
