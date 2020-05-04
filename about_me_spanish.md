@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /about-spa/
 title: About me
 tagline: Minimal Mistakes, a Jekyll Theme
 tags: [about, Diego Lizcano, theme, Mountain Tapir, research, Colombia, Paramo]
