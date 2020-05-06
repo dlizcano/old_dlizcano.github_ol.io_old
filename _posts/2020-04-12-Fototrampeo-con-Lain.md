@@ -17,19 +17,22 @@ comments: true
 share: true
 ---
 
-## Una imagen NO vale más que mil palabras:
-### Del fototrampeo y las conclusiones apresuradas
+### Esta entrada del blog fue una colaboración a la que muy amablemente fui invitado por Lain E. Pardo. 
 
-Esta entrada del blog fue una colaboración a la que muy amablemente fui invitado por Lain E. Pardo. 
-Esta es una reproducción del texto original, el cual se encuentra en el blog de [El Razonante](https://elrazonante.com/2020/04/12/una-imagen-no-vale-mas-que-mil-palabras-del-fototrampeo-y-las-conclusiones-apresuradas). 
+
+_Esta es una reproducción del texto original, el cual se encuentra en el blog de [El Razonante](https://elrazonante.com/2020/04/12/una-imagen-no-vale-mas-que-mil-palabras-del-fototrampeo-y-las-conclusiones-apresuradas)._ 
+
 
 
 Las cámaras trampa (cámaras que se activan automáticamente) se han convertido en el instrumento favorito de investigadores y personas con curiosidad por la naturaleza. Son a su vez una gran forma de interactuar con la sociedad para mostrar la vida salvaje oculta en nuestros paisajes y establecer alianzas eficientes con las comunidades para proteger su diversidad. Sin embargo, la emoción que causan las fotos a veces nos hace olvidar del rigor científico en la forma como mostramos nuestros resultados. En este ensayo hacemos algunas reflexiones sobre la popularidad de esta técnica, la necesidad de interpretar adecuadamente las fotografías que se obtienen y la importancia de no caer en la tentación de publicar todo en las redes sociales sin un análisis riguroso.
 
-#### Observaciones aisladas no dicen nada sobre las poblaciones
+
+###Observaciones aisladas no dicen nada sobre las poblaciones.
+
 
 
 Lo primero que hay que tener en cuenta es que la aparición de una especie en alguna foto en particular no significa nada en términos de viabilidad de poblaciones o estado de conservación. Algunos científicos o profesionales involucrados en proyectos con cámaras trampa solemos mostrar nuestras fotos durante el proceso de investigación o socialización de resultados. Es una forma de interactuar con las comunidades locales y la sociedad para mostrar las especies que existen a sus alrededores. Sin duda, algo muy importante en un mundo donde la relación con la naturaleza es cada vez menor. Pero, hay que tener cuidado con las conclusiones aceleradas que pueden derivar de una sola foto.
+
 
 Si bien algunas especies pueden indicar ciertos aspectos relacionadas con el entorno, no se puede suponer nada sin un análisis riguroso.  Interpretar y difundir fotos de animales silvestres sin un análisis cauteloso puede tener al menos tres consecuencias inintencionadas: 1) suponer que la población está bien 2) creer que no hay necesidad de un monitoreo, 3) ignorar las potenciales amenazas a la fauna. Por ejemplo, si se registra mediante fototrampeo una especie importante en términos de conservación (amenazada o carismática), esta foto corre el riesgo de interpretarse como que el área esta “rebosante” de vida, o peor aún, creer que no hay ningún impacto. Por otro lado, si no se registra alguna de estas especies puede dar luz verde a la transformación del ecosistema. Esto podría ser especialmente preocupante en estudios de impacto ambiental donde se obtienen conclusiones con base en muestreos muy cortos.
 
@@ -49,7 +52,8 @@ En este sentido, Gill y colaboradores (4), llamaban la atención sobre este tipo
 Una pregunta que tal vez deberíamos analizar con más detenimiento es si con el incremento de las publicaciones de fotos de cámaras trampa u otras técnicas similares en medios masivos estaríamos mostrándole a los ciudadanos una falsa percepción de que “todo está bien”. Al fin y al cabo “una imagen vale más que mil palabras”, no?.
 
 
-####No todas las especies son iguales
+###No todas las especies son iguales.
+
 
 Como los ciudadanos no conocen bien la ecología de las especies (y no es su deber), se tiende a pensar que un registro aislado es un resultado importante. En el mundo, las especies endémicas y raras son cada vez más escasas, mientras que especies bien adaptadas tienen a expandirse en todo tipo de paisajes, transformados o no. De manera que hay que considerar la ecología de la especie antes de establecer si el registro es positivo, negativo o novedoso. Los zorros y pumas por ejemplo, pueden colonizar nuevas áreas agrícolas sin mucho problema(5). Al ser especies tan flexibles ecológicamente sus efectos en los ecosistemas pueden ser no deseados (e.g. aumentar la depredación de especies más pequeñas) y entrar en conflicto con los pobladores locales por el incremento en la frecuencia de depredación de animales domésticos. Si se debe celebrar o no, que se registren por primera vez este tipo de especies, debe ser un tema de estudio específico.
 
@@ -57,7 +61,8 @@ Como los ciudadanos no conocen bien la ecología de las especies (y no es su deb
 Gracias al fototrampeo hemos registrado que afortunadamente hay especies conviviendo cerca de los humanos y en paisajes agrícolas. Esto sin duda es interesante y alentador, pero no debemos bajar la guardia asumiendo que estas especies están en buen estado de conservación. Pardo y colaboradores (6), por ejemplo, llaman la atención sobre algunas especies que son comunes en cultivos de palma de aceite en Colombia, pero que dependiendo del contexto paisajístico incluso estas especies podrían verse en riesgo si la proporción de palma en un paisaje sobrepasa ciertos umbrales. No porque sean comunes y tolerantes a la palma implica automáticamente que estén fuera de riesgo.
 
 
-####El “efecto contrario” en la divulgación de fotos (“The backfire effect”)
+###El “efecto contrario” en la divulgación de fotos (“The backfire effect”).
+
 
 Indiscutiblemente la divulgación científica es fundamental para que la sociedad entienda la importancia de la conservación de la biodiversidad. Lo es así mismo presentar a la sociedad los triunfos y las cosas por mejorar en esta carrera por la proteger la naturaleza. Sin embargo, en nuestro afán por divulgar y comunicar nuestros resultados se corre el riesgo de generar efectos no deseados o “backfire”.
 
@@ -80,7 +85,8 @@ El rinoceronte de java está críticamente amenazado por cacería. Sin embargo, 
 ¿Será necesario ser tan específicos en la promoción de nuestros proyectos? Por ejemplo, comentar abiertamente información como “Las primeras estimaciones indicaron la presencia de 1.5 jaguares por cada 100 kilómetros cuadrados, lo que ha permitido estimar que en la triple frontera podría haber unos 2000 felinos.” ¿A quien le sirve esa información? ¿Eso es muchos o pocos jaguares? Los científicos tenemos clara la incertidumbre asociada a cualquier estimación debido a efectos estadísticos o de muestreo, pero ¿que podría interpretar el público en general con estas afirmaciones? Es más, ¿Si son primeras estimaciones, vale la pena reportarlas? No tenemos respuestas a estas preguntas, tampoco evidencias de efectos no deseados del fototrampeo, pero nos parece prudente empezar a reflexionar en estos temas y aplicar el principio precautorio antes de publicarlo todo en redes sociales.
 
 
-####Informar no es conservar
+###Informar no es conservar.
+
 
 Otro error que cometemos es creer que estudiar las especies es conservación por sí misma. Sin duda es fundamental y nos permite estudiar los sistemas y registrar lo que está pasando, pero sin un vínculo político o con tomadores de decisiones, no significa mucho para la conservación y no deja de ser ecología e historia natural. De manera que el solo hecho de instalar cámaras trampa para ver que se registra no implica que estemos haciendo conservación (a veces ni siquiera ciencia). Tristemente, tomar datos o informar sobre nuestras investigaciones no es conservar. Como dice el profesor Ellison “mejores datos, no van a salvar los elefantes, rinocerontes o cualquier otra especie”. Aunque es algo frustrante para nosotros, los científicos de vida silvestre, la realidad es que rara vez nuestros resultados pueden aplicarse completamente a la conservación o en otras ocasiones nuestros resultados son simplemente ignorados.
 
