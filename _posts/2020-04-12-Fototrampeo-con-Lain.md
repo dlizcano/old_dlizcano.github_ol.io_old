@@ -110,21 +110,30 @@ Entendemos lo frustrante que puede ser tener que hacer un sin número de conside
 
 
 
-####Literatura
+###Literatura citada.
+
+
 
 Mackenzie DI, Royle JA. Designing occupancy studies: general advice and allocating survey effort. J Appl Ecol [Internet]. 2005 Dec [cited 2016 May 8];42(6):1105–14. Available from: http://doi.wiley.com/10.1111/j.1365-2664.2005.01098.x
 
+
 Gopalaswamy AM, Karanth KU, Delampady M, Stenseth NC. How sampling‐based overdispersion reveals India’s tiger monitoring orthodoxy. Conserv Sci Pract. 2019;1(12):1–11.
+
 
 Hamel S, Killengreen ST, Henden J-A, Eide NE, Roed-Eriksen L, Ims RA, et al. Towards good practice guidance in using camera-traps in ecology: influence of sampling design on validity of ecological inferences. O’Hara RB, editor. Methods Ecol Evol [Internet]. 2013 Feb 1 [cited 2020 Apr 11];4(2):105–13. Available from: http://doi.wiley.com/10.1111/j.2041-210x.2012.00262.x
 
+
 Gill JA, Norris K, Sutherland WJ. Why behavioural responses may not reflect the population consequences of human disturbance. Biol Conserv. 2001;97:265–8.
+
 
 Pardo LE, Campbell MJ, Edwards W, Clements GR, Laurance WF. Terrestrial mammal responses to oil palm dominated landscapes in Colombia. Yue B-S, editor. PLoS One [Internet]. 2018 May 24 [cited 2018 May 26];13(5):e0197539. Available from: http://dx.plos.org/10.1371/journal.pone.0197539
 
+
 Pardo LE, Roque F de O, Campbell MJ, Younes N, Edwards W, Laurance WF. Identifying critical limits in oil palm cover for the conservation of terrestrial mammals in Colombia. Biol Conserv [Internet]. 2018 Nov 1 [cited 2018 Sep 12];227:65–73. Available from: https://www.sciencedirect.com/science/article/pii/S0006320718304725
 
+
 Glenn I, Ferreira SM, Pienaar D. Communication on rhino poaching: Precautionary lessons about backfires and boomerangs. S Afr J Sci. 2019;115(3–4):2–5.
+
 
 Locascio JJ. The Impact of Results Blind Science Publishing on Statistical Consultation and Collaboration. Am Stat [Internet]. 2019;73(sup1):346–51. Available from: https://doi.org/10.1080/00031305.2018.1505658
 
