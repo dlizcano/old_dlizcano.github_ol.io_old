@@ -17,18 +17,16 @@ comments: true
 share: true
 ---
 
-## Esta entrada del blog fue una colaboración a la que muy amablemente fui invitado por Lain E. Pardo. 
+# Esta entrada del blog fue una colaboración a la que muy amablemente fui invitado por Lain E. Pardo. 
 
 
-_Esta es una reproducción del texto original, el cual se encuentra en el blog de [El Razonante](https://elrazonante.com/2020/04/12/una-imagen-no-vale-mas-que-mil-palabras-del-fototrampeo-y-las-conclusiones-apresuradas)._ 
-
+##_Esta es una reproducción del texto original, el cual se encuentra en el blog de [El Razonante](https://elrazonante.com/2020/04/12/una-imagen-no-vale-mas-que-mil-palabras-del-fototrampeo-y-las-conclusiones-apresuradas)._ 
 
 
 Las cámaras trampa (cámaras que se activan automáticamente) se han convertido en el instrumento favorito de investigadores y personas con curiosidad por la naturaleza. Son a su vez una gran forma de interactuar con la sociedad para mostrar la vida salvaje oculta en nuestros paisajes y establecer alianzas eficientes con las comunidades para proteger su diversidad. Sin embargo, la emoción que causan las fotos a veces nos hace olvidar del rigor científico en la forma como mostramos nuestros resultados. En este ensayo hacemos algunas reflexiones sobre la popularidad de esta técnica, la necesidad de interpretar adecuadamente las fotografías que se obtienen y la importancia de no caer en la tentación de publicar todo en las redes sociales sin un análisis riguroso.
 
 
 ### Observaciones aisladas no dicen nada sobre las poblaciones.
-
 
 
 Lo primero que hay que tener en cuenta es que la aparición de una especie en alguna foto en particular no significa nada en términos de viabilidad de poblaciones o estado de conservación. Algunos científicos o profesionales involucrados en proyectos con cámaras trampa solemos mostrar nuestras fotos durante el proceso de investigación o socialización de resultados. Es una forma de interactuar con las comunidades locales y la sociedad para mostrar las especies que existen a sus alrededores. Sin duda, algo muy importante en un mundo donde la relación con la naturaleza es cada vez menor. Pero, hay que tener cuidado con las conclusiones aceleradas que pueden derivar de una sola foto.
