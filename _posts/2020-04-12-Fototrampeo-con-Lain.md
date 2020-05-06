@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Una imagen NO vale más que mil palabras: del fototrampeo y las conclusiones apresuradas"
-modified: 2019-11-25 10:10:36 -0500
+modified: 2020-04-12 10:10:36 -0500
 category:
 tags:   
   - ciencia
@@ -20,7 +20,7 @@ share: true
 # Esta entrada del blog fue una colaboración a la que muy amablemente fui invitado por Lain E. Pardo. 
 
 
-##_Esta es una reproducción del texto original, el cual se encuentra en el blog de [El Razonante](https://elrazonante.com/2020/04/12/una-imagen-no-vale-mas-que-mil-palabras-del-fototrampeo-y-las-conclusiones-apresuradas)._ 
+_Esta es una reproducción del texto original, el cual se encuentra en el blog de [El Razonante](https://elrazonante.com/2020/04/12/una-imagen-no-vale-mas-que-mil-palabras-del-fototrampeo-y-las-conclusiones-apresuradas)._ 
 
 
 Las cámaras trampa (cámaras que se activan automáticamente) se han convertido en el instrumento favorito de investigadores y personas con curiosidad por la naturaleza. Son a su vez una gran forma de interactuar con la sociedad para mostrar la vida salvaje oculta en nuestros paisajes y establecer alianzas eficientes con las comunidades para proteger su diversidad. Sin embargo, la emoción que causan las fotos a veces nos hace olvidar del rigor científico en la forma como mostramos nuestros resultados. En este ensayo hacemos algunas reflexiones sobre la popularidad de esta técnica, la necesidad de interpretar adecuadamente las fotografías que se obtienen y la importancia de no caer en la tentación de publicar todo en las redes sociales sin un análisis riguroso.
