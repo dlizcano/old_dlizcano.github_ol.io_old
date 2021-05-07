@@ -20,5 +20,5 @@ image:
 
 
 * [Graphical CV ](/content/Visual_CV_2017.pdf) in PDF
-* [Detailed CV ](/content/CV_Lizcano_2018_I_TNC.pdf) in PDF
+* [Detailed CV ](/content/CV_Lizcano_English_2021.pdf) in PDF
 * [Hoja de vida en Español ](/content/Hvida_Lizcano_2016_I.pdf) in PDF
