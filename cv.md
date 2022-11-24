@@ -14,7 +14,7 @@ image:
 
 
 <figure>
-	<a href="/images/CV/Visual_CV2017.png"><img src="/images/CV/Visual_CV2017.png"></a>
+	<a href="/images/CV/Diego_Lizcano_VisualRresume_2022.png"><img src="/images/CV/Diego_Lizcano_VisualRresume_2022.png"></a>
 	
 </figure>
 
