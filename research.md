@@ -23,4 +23,5 @@ For most of my research I have studied mountain tapirs, my favourite species.
 ## Past Work
 I worked at ULEAM as researcher directing a [wildlife monitoring project](https://faunamanabi.github.io/)
 
-Find my ResearchGate profile [here](https://www.researchgate.net/profile/Diego_Lizcano).  
+Find my Orcid profile [here](https://orcid.org/my-orcid?orcid=0000-0002-9648-0576)
+And my ResearchGate profile [here](https://www.researchgate.net/profile/Diego_Lizcano).  
