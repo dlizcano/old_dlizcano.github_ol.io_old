@@ -11,4 +11,6 @@ image:
   credit: Fall in Silver Spring, MD, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
-I am proud member of the IUCN/SSC [Tapir Specialist Group (TSG)](http://www.tapirs.org/), Admin of the projects ["Fauna de Norte de Santander"](http://www.inaturalist.org/projects/fauna-de-norte-de-santander) in iNaturalist, and [Fauna of Manabi](https://faunamanabi.github.io/). I am editor and webmaster of [Mammalogy Notes](https://mammalogynotes.org), the journal of the Colombian Mammal Society. I also enjoy traveling, planning and taking pictures and making and flying kites.  
+I am proud member of the IUCN/SSC [Tapir Specialist Group (TSG)](http://www.tapirs.org/), Admin of the projects ["Fauna de Norte de Santander"](http://www.inaturalist.org/projects/fauna-de-norte-de-santander) in iNaturalist, and [Fauna of Manabi](https://faunamanabi.github.io/). I am editor and webmaster of [Mammalogy Notes](https://mammalogynotes.org), the journal of the Colombian Mammal Society.
+  
+I also enjoy traveling, planning and taking pictures and making and flying kites.  
