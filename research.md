@@ -16,12 +16,14 @@ For most of my research I have studied mountain tapirs, my favourite species.
 ## Research Interests:
 
 * Wildlife ecology and conservation.
-* Defaunation.
+* Biodiversity monitoring.
 * Hunting sustainability.
 * Deforestation.
 
 ## Past Work
+I worked at [Awake Travel](https://awakebio.awake.travel/) as biodiversity specialist doing [acoustics](https://awakebio.awake.travel/) and [camera trapping](https://app.wildlifeinsights.org/initiatives/2000134/Awake-CameraTrap). 
 I worked at ULEAM as researcher directing a [wildlife monitoring project](https://faunamanabi.github.io/)
 
-Find my Orcid profile [here](https://orcid.org/my-orcid?orcid=0000-0002-9648-0576)
-And my ResearchGate profile [here](https://www.researchgate.net/profile/Diego_Lizcano).  
+### Find my: 
+Orcid profile [![here](images/orcid-og-image.png)](https://orcid.org/my-orcid?orcid=0000-0002-9648-0576)
+ResearchGate profile [here](https://www.researchgate.net/profile/Diego_Lizcano).  
