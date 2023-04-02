@@ -13,7 +13,11 @@ disqus_shortname: dlizcano
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+google:
+  search_engine_id: "f5d6f7a56536b40d7"
 
+twitter:
+  username: "dlizcano"
 
 
 # Owner/author information
