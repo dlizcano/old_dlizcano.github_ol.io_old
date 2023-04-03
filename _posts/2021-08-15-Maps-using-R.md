@@ -9,6 +9,7 @@ tags:
   - code
   - map
   - GIS
+  - blog
 image:
   feature: texture-feature-20.jpg
   credit: Cerro Yupati, La Pedrera, Amazonas, Colombia
