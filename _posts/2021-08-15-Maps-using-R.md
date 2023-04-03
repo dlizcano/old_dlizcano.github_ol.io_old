@@ -19,7 +19,7 @@ share: true
 read_time: true
 ---
 
-## R as mapping tool
+## R as mapping tool.  
 
 
 R has added more tools to make beautiful maps and has evolved from a simple GIS tool to a very capable software to make maps. New packages such as sf, mapview, and tmap are game changers, extending R capabilities to make excellent maps.
