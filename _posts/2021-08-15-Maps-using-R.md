@@ -33,7 +33,7 @@ This is one example from the papper [Elevation as an occupancy determinant of th
 The background is a terrain raster image from Open Street Map of a bounding box window. Later we plot the country and states limits using the tmap package. 
 
 
-```
+~~~ R
 cams_loc_QR <- read.csv("data/cams_location.csv") # read data
 cams_loc_QR_sf <- st_as_sf(cams_loc_QR, coords = c("Longitud", "Latitud"), crs = "+proj=longlat +datum=WGS84 +no_defs") # make data sf
 
@@ -62,7 +62,7 @@ depto_window
 print(dep_map, vp = viewport(0.73, 0.40, width = 0.25, height = 0.25))
 print(col_map, vp = viewport(0.73, 0.65, width = 0.25, height = 0.25))
 
-```
+~~~
 
 
 
