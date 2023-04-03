@@ -1,30 +1,67 @@
 ---
 layout: post
-title: "Reflexiones de pandemia"
-modified: 2022-01-15 10:10:36 -0500
+title: "Maps using R"
+modified: 2021-08-15 10:10:36 -0500
 category:
 tags:   
-  - Covid
+  - R
   - blog
+  - code
+  - map
+  - GIS
 image:
-  feature: osprey.jpg
-  credit: Osprey. Panama. Diego J. Lizcano
-  creditlink: https://www.instagram.com/walking_tapir/
-comments: false
+  feature: texture-feature-20.jpg
+  credit: Cerro Yupati, La Pedrera, Amazonas, Colombia
+  creditlink: https://www.flickr.com/photos/diegolizcano/14734613538
+comments: true
 share: true
 read_time: true
 ---
 
-## Lo que nos quitó la pandemia. 
+## R as mapping tool
 
 
-Un año después de la pandemia de COVID19 hay mucho para reflexionar. En lo personal ha dejado un impacto muy fuerte y me trajo muchos cambios. Al comienzo de la misma y con un espíritu muy optimista había escrito una columna para la Silla Vacía en la que pretendía remover un poco el estigma que había recaído sobre los murciélagos que pueden encontrar acá [https://www.lasillavacia.com/historias/historias-silla-llena/retos-de-la-biodiversidad-en-epoca-de-pandemia-global/](https://www.lasillavacia.com/historias/historias-silla-llena/retos-de-la-biodiversidad-en-epoca-de-pandemia-global/) Sin embargo algunos días después perdería mi trabajo, lo cual nos obligaría a abandonar Bogotá. Luego perdería a mi padre quien perdió una larga batalla contra el Cáncer, y finalmente para completar la mala racha, seria victima de fraude en mis cuentas de banco.  Realmente un mal año el 2020. 
+R has added more tools to make beautiful maps and has evolved from a simple GIS tool to a very capable software to make maps. New packages such as sf, mapview, and tmap are game changers, extending R capabilities to make excellent maps.
 
-## Lo que nos trajo posteriormente.
-
-En el 2021 las cosas mejoraron bastante. Llegó un nuevo trabajo en el cual tuve la oportunidad de viajar a lugares increíbles en Putumayo, Choco y Casanare. Desde la SCMas, la sociedad colombiana de mastología, asumimos el reto desde de realizar un congreso virtual (acá pueden ver el libro de resumenes [https://doi.org/10.47603/mano.v7n3.312](https://doi.org/10.47603/mano.v7n3.312)) que nos dejo agotados, pero con grandes satisfacciones y enseñanzas. 
+This is one example from the papper [Elevation as an occupancy determinant of the little red brocket deer (Mazama rufina) in the Central Andes of Colombia. https://doi.org/10.15446/caldasia.v43n2.85449](https://doi.org/10.15446/caldasia.v43n2.85449)
 
 
+![image](https://github.com/dlizcano/Mazama_rufina/raw/main/figs/README-unnamed-chunk-3-1.png)
 
+
+## How to make it?
+
+The background is a terrain raster image from Open Street Map of a bounding box window. Later we plot the country and states limits on top using the tmap package.
+
+~~~ R
+cams_loc_QR <- read.csv("data/cams_location.csv") # read data
+cams_loc_QR_sf <- st_as_sf(cams_loc_QR, coords = c("Longitud", "Latitud"), crs = "+proj=longlat +datum=WGS84 +no_defs") # make data sf
+
+bb <- c(-75.60, 4.59, -75.39,  4.81) # bounding box
+andes_osm1 <- read_osm(bb, zoom = NULL, type="stamen-terrain", mergeTiles = TRUE) # type can be also bing and osm 
+collimit <- gadm_sf_loadCountries("COL", level=0, basefile="./")
+deptos <- gadm_subset(colombia, regions=c("Risaralda", "Quindío"))
+
+depto_window <- qtm(andes_osm1)  +  # on osm add..
+  tm_shape(cams_loc_QR_sf) + # add points
+  tm_dots(col = "red", size = 0.2,  
+          shape = 16, title = "Sampling point", legend.show = TRUE,
+          legend.is.portrait = TRUE,
+          legend.z = NA) + 
+  tm_layout(scale = .9) + # legend
+  tm_legend(position = c("left", "bottom"), frame = TRUE,
+            bg.color="white") + 
+  tm_layout(frame=F) + tm_scale_bar() + tm_compass(position = c(.75, .82), color.light = "grey90") # aditionals
+
+dep_map <-  tm_shape(deptos$sf) + tm_polygons() + # state box
+  tm_shape(data_box) + tm_symbols(shape = 0, col = "red", size = 0.25)
+col_map <- tm_shape(collimit$sf) + tm_polygons() + tm_shape(deptos$sf) + tm_polygons() # country box
+
+##### print all
+depto_window
+print(dep_map, vp = viewport(0.73, 0.40, width = 0.25, height = 0.25))
+print(col_map, vp = viewport(0.73, 0.65, width = 0.25, height = 0.25))
+
+~~~
 
 
