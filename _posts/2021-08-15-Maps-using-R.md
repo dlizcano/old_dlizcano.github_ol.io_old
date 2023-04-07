@@ -69,8 +69,9 @@ print(col_map, vp = viewport(0.73, 0.65, width = 0.25, height = 0.25))
 
 The tmap package team has anounced a major update and several improvements for this package. [https://mtennekes.github.io/tmap4/index.html](https://mtennekes.github.io/tmap4/index.html)  
 
-<p>lets see.  </p>
-<p> </p>
+<p>lets see.  <br>
+<br>
+</p>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
