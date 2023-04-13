@@ -27,4 +27,4 @@ I also enjoy traveling, planning and taking pictures and making and flying kites
 ### Presentations  
   
 - [Ocupancy Modeling Workshop. OTS 2022](https://dlizcano.github.io/OTS/Occupancy.html)
-- [Abundancia: Entendiendo el contexto y la historia de la ocupación. IVCCM 2021 (Spanish)](https://dlizcano.github.io/IntroOccuPresent/index_ivccm.html)
+- [Abundancia: Entendiendo el contexto y la historia de los modelos de ocupación. IVCCM 2021 (Spanish)](https://dlizcano.github.io/IntroOccuPresent/index_ivccm.html)
