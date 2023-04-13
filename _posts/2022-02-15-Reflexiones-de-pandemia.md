@@ -36,7 +36,7 @@ En el 2021 las cosas mejoraron bastante. Llegó un nuevo y emocionate trabajo co
 ### Por otra parte.  
 
 
-Desde la Sociedad Colombiana de Mastología (SCMas), asumimos el reto desde de organizar y realizar un congreso virtual (acá pueden ver el libro de resumenes [https://doi.org/10.47603/mano.v7n3.312](https://doi.org/10.47603/mano.v7n3.312)) que nos dejo agotados!, pero con grandes satisfacciones, nuevos amigos y muchas enseñanzas. 
+Desde la Sociedad Colombiana de Mastología (SCMas), asumimos el reto desde de organizar y realizar un congreso de mastozoología virtual (acá pueden ver el libro de resumenes [https://doi.org/10.47603/mano.v7n3.312](https://doi.org/10.47603/mano.v7n3.312)) que nos dejo agotados!, pero con grandes satisfacciones, nuevos amigos y muchas enseñanzas. 
 
 
 
