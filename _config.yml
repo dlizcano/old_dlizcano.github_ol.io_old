@@ -120,3 +120,5 @@ exclude:
   - README
   - tmp
 theme: jekyll-theme-minimal
+plugins: 
+- jekyll-sitemap
