@@ -22,7 +22,7 @@ read_time: true
 ## R as mapping tool.  
 
 
-R has added more tools to make beautiful maps and has evolved from a simple GIS tool to a very capable software to make maps. New packages such as sf, mapview, and tmap are game changers, extending R capabilities to make excellent maps.
+R has added more tools to make beautiful maps and has evolved from a [simple GIS tool](https://github.com/dlizcano/R_as_GIS) to a very capable software to make complex spatial analysis and beautiful maps. New packages such as sf, mapview, and tmap are game changers, extending R capabilities to make those excellent maps.
 
 This is one example from the papper [Elevation as an occupancy determinant of the little red brocket deer (Mazama rufina) in the Central Andes of Colombia. https://doi.org/10.15446/caldasia.v43n2.85449](https://doi.org/10.15446/caldasia.v43n2.85449)
 
