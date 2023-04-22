@@ -3,6 +3,8 @@ description: Diego J. Lizcano personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url: https://dlizcano.github.io
 disqus_shortname: dlizcano
+repository: "dlizcano/dlizcano.github.io"
+# teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 
 # Theme Settings
 #
@@ -121,4 +123,21 @@ exclude:
   - tmp
 theme: jekyll-theme-minimal
 plugins: 
-- jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
