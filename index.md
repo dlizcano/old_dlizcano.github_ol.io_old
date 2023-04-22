@@ -2,15 +2,16 @@
 layout: home
 description: "Diego J. Lizcano website"
 tags: [Diego J. Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapirus pinchaque]
-
+tagline: Minimal Mistakes, a Jekyll Theme
+tags: [about, Diego Lizcano, theme, Mountain Tapir, research, Colombia, Paramo]
 image:
   feature: texture-feature-05.jpg
   credit: Leaves, Silver Spring, MD, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
-I work as professional-services consultant, with a focus on strategic matters around ecology and biodiversity conservation. I am especially interested in helping companies to take science and data based decisions.
+As a professional-services consultant, my focus is on strategic matters related to ecology and biodiversity conservation. I am particularly passionate about assisting companies in making science and data-driven decisions.
 
-Most recently, I have been working on monitoring wildlife and understanding deforestation. This is also the focus of my consulting practice.
+My recent work has centered on monitoring wildlife through various methods and gaining a deeper understanding of deforestation. These areas of expertise align with the focus of my consulting practice.
 
 ## This site hosts:
 
