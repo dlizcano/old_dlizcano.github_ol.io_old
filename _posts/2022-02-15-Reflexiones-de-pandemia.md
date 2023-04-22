@@ -25,6 +25,7 @@ Un año después de la pandemia de COVID19 hay mucho para reflexionar. En lo per
 En el 2021 las cosas mejoraron bastante. Llegó un nuevo y emocionate trabajo con Awake Travel, en el cual tuve la oportunidad de viajar a lugares increíbles en Putumayo, Cauca, Choco y Casanare para hacer monitoreo acústico de biodiversidad y fototrampeo. Acá pueden ver algunos de los productos:
 - Blog de Monitoreo acústico [https://monitoreo-acustico.netlify.app](https://monitoreo-acustico.netlify.app/es/)
 - Iniciativa de Fototrampeo en Wildlife Insights [https://app.wildlifeinsights.org/initiatives/2000134/Awake-CameraTrap](https://app.wildlifeinsights.org/initiatives/2000134/Awake-CameraTrap)
+- [Tablero de mapas y patrones de actividad de las especies](https://dlizcano.github.io/activity/)
 - Documental Sonidos y Latidos: 
 
 {% include video id="ttMUwYfkJOg" provider="youtube" %}  
@@ -33,7 +34,7 @@ En el 2021 las cosas mejoraron bastante. Llegó un nuevo y emocionate trabajo co
 - Proyecto de monitoreo acústico de Awake Travel en Arbimon [https://arbimon.rfcx.org/project/destinos-awake/dashboard](https://arbimon.rfcx.org/project/destinos-awake/dashboard)
 
 
-### Por otra parte.  
+### Por otra parte  
 
 
 Desde la Sociedad Colombiana de Mastología (SCMas), asumimos el reto desde de organizar y realizar un congreso de mastozoología virtual (acá pueden ver el libro de resumenes [https://doi.org/10.47603/mano.v7n3.312](https://doi.org/10.47603/mano.v7n3.312)) que nos dejo agotados!, pero con grandes satisfacciones, nuevos amigos y muchas enseñanzas. 
