@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 description: "Diego J. Lizcano website"
 tags: [Diego J. Lizcano, theme, Mountain Tapir, research, Colombia, Paramo, Tapirus pinchaque]
 tagline: Minimal Mistakes, a Jekyll Theme

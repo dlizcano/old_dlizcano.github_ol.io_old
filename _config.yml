@@ -24,44 +24,24 @@ twitter:
 og_image: /assets/images/texture-feature-05.jpg
 
 # Owner/author information
-author:
+owner:
   name: Diego J. Lizcano
   avatar: bio-photo5.jpg
   bio: "Biologist, Mammal ecology and conservation, R and Linux fan"
   email: dj.lizcano@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-    links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/dlizcano"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dlizcano"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-      
- # twitter: dlizcano
- # facebook: djlizcano
- # github: dlizcano
- # stackoverflow:
- # linkedin: lizcano
- # 500px: dlizcano
- # instagram: walking_tapir
- # tumblr:
- # pinterest:
- # foursquare:
- # steam:
- # dribbble:
+  twitter: dlizcano
+  facebook: djlizcano
+  github: dlizcano
+  stackoverflow:
+  linkedin: lizcano
+  500px: dlizcano
+  instagram: walking_tapir
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
   # For Google Authorship https://plus.google.com/authorship
   # google_plus: DiegoJLizcano/posts
 
