@@ -11,7 +11,7 @@ image:
 ---
 As a professional-services consultant, my focus is on strategic matters related to ecology and biodiversity conservation. I am particularly passionate about assisting companies in making science and data-driven decisions.
 
-My recent work has centered on monitoring wildlife through various methods and gaining a deeper understanding of deforestation. These areas of expertise align with the focus of my consulting practice.
+My recent work has centered on monitoring wildlife through various methods and gaining a deeper understanding of deforestation impacts on wildlife. These areas of expertise align with the focus of my consulting practice.
 
 ## This site hosts:
 
