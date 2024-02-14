@@ -20,6 +20,7 @@ I also enjoy traveling, planning and taking pictures and making and flying kites
 - [Introducción a R (Tutorial in Spanish)](https://dlizcano.github.io/IntroR/)
 - [Occupancy simulation and analysis: Understanding the simulations and the basic occupancy model (English)](https://dlizcano.github.io/occu_book/)
 - [Simulación y análisis de ocupación: Entendiendo las simulaciones y el modelo básico de ocupación (Spanish)](https://dlizcano.github.io/IntroOccuBook/)
+- [Mini taller de modelado de la ocupación. Uniandes 2023](https://dlizcano.github.io/Uniandes/)
 - [Introducción al procesamiento, visualización y mapeo de datos biologicos (Spanish)](https://dlizcano.github.io/Intro_R_espacial_light/)
 - [Modelo de Ocupación Dinámico (Spanish)](https://dlizcano.github.io/dynamic-occu/index.html)
 
