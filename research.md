@@ -11,7 +11,7 @@ image:
   credit: Red Uakari Monkey Peru. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
-For most of my research I have studied mountain tapirs, my favourite species.
+For most of my research I have studied mammals and mountain tapirs, my favourite species.
 
 ## Research Interests:
 
@@ -20,7 +20,7 @@ For most of my research I have studied mountain tapirs, my favourite species.
 * Hunting sustainability.
 * Deforestation.
 
-## Past Work
+## Recent Work
 I worked at [Awake Travel](https://awakebio.awake.travel/) as biodiversity specialist doing [acoustics](https://awakebio.awake.travel/) and [camera trapping](https://app.wildlifeinsights.org/initiatives/2000134/Awake-CameraTrap). 
 I worked at ULEAM as researcher directing a [wildlife monitoring project](https://faunamanabi.github.io/)
 

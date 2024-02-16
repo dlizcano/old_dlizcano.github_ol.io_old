@@ -20,5 +20,5 @@ image:
 
 
 * [Graphical CV ](/content/Diego_Lizcano_VisualRresume_2022.pdf) in PDF
-* [Detailed CV ](/content/CV_Diego_Lizcano_2022_II.pdf) in PDF
-* [Hoja de vida en Español ](/content/Hvida_Lizcano_2016_I.pdf) in PDF
+* [Detailed CV ](/content/CV_Lizcano_2024.pdf) in PDF
+* [Resume ](/content/Diego_Lizcano_resume_twoPages.pdf) in PDF
