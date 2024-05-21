@@ -23,7 +23,7 @@ I also enjoy traveling, planning and taking pictures and making and flying kites
 - [Mini taller de modelado de la ocupación. Uniandes 2023 (Spanish)](https://dlizcano.github.io/Uniandes/)
 - [Introducción al procesamiento, visualización y mapeo de datos biologicos (Spanish)](https://dlizcano.github.io/Intro_R_espacial_light/)
 - [Modelo de Ocupación Dinámico (Spanish)](https://dlizcano.github.io/dynamic-occu/index.html)
-
+- [Introducción al procesamiento, visualización y análisis de datos espaciales en R. 2024 (Spanish)](https://dlizcano.github.io/spatialdata_lite/)
 
 ### Presentations  
   
