@@ -9,9 +9,15 @@ image:
   credit: Leaves, Silver Spring, MD, USA. Diego J. Lizcano
   creditlink: http://500px.com/dlizcano
 ---
-As a professional-services consultant, my focus is on strategic matters related to ecology and biodiversity conservation. I am particularly passionate about assisting companies in making science and data-driven decisions.
+### Harnessing the Power of Ecology for Sustainable Success: 
 
-My recent work has centered on monitoring wildlife through various methods and gaining a deeper understanding of deforestation impacts on wildlife. These areas of expertise align with the focus of my consulting practice.
+I am a passionate professional-services consultant specializing in ecology, biodiversity monitoring, and conservation. I assist organizations and companies in making informed decisions through a data-driven approach, ensuring their operations align with the best scientific insight and environmental sustainability. My comprehensive wildlife monitoring programs utilize camera traps, acoustic surveys, and field data collection to provide a detailed picture of wildlife populations.
+
+### Unveiling Wildlife Trends & Habitat Transformation Impacts: 
+
+I help organizations understand the impacts of habitat loss and develop data-driven strategies for biodiversity conservation. My expertise extends to understanding the profound effects of habitat transformation and deforestation on wildlife populations.  My biodiversity monitoring programs have helped organizations and companies identify the best solutions for biodiversity conservation.
+
+> Ready to make a positive environmental impact? Contact me today to discuss a customized ecology and biodiversity strategy for your business.
 
 ## This site hosts:
 
