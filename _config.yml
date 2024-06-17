@@ -19,6 +19,7 @@ locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
+<<<<<<< HEAD
 name                     : "Diego J. Lizcano"
 description              : "Diego J. Lizcano personal website."
 url                      : https://dlizcano.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -36,13 +37,38 @@ comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : dlizcano # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+=======
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+enable_copy_code_button  : # true, false (default)
+copyright                : # "copyright" name, defaults to site.title
+copyright_url            : # "copyright" URL, defaults to site.url
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
+<<<<<<< HEAD
     appid                : djlizcano
     num_posts            : 10 # 5 (default)
     colorscheme          : "dark" # "light" (default), "dark"
+=======
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
@@ -67,9 +93,15 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
+<<<<<<< HEAD
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : google # lunr (default), algolia, google
+=======
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -78,10 +110,17 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
+<<<<<<< HEAD
   search_engine_id       : f5d6f7a56536b40d7 # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification : google214e9032db7a3bda.html
+=======
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -89,12 +128,21 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
+<<<<<<< HEAD
   username               : dlizcano
 facebook:
   username               : djlizcano
   app_id                 : 
   publisher              :
 og_image                 : /images/texture-feature-03.jpg # Open Graph/Twitter default site image
+=======
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -104,7 +152,11 @@ social:
 
 # Analytics
 analytics:
+<<<<<<< HEAD
   provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
+=======
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -112,6 +164,7 @@ analytics:
 
 # Site Author
 author:
+<<<<<<< HEAD
   name             : "Diego J. Lizcano"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Biologist, Mammal ecology and conservation, R and Linux fan"
@@ -136,6 +189,32 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
        url: "https://instagram.com/walking_tapir"
+=======
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
 
 # Site Footer
 footer:
@@ -149,11 +228,19 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
+<<<<<<< HEAD
     #- label: "GitLab"
       #icon: "fab fa-fw fa-gitlab"
       # url:
     #- label: "Bitbucket"
      # icon: "fab fa-fw fa-bitbucket"
+=======
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"

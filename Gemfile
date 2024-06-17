@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+<<<<<<< HEAD
 
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll", path: ".."
@@ -17,3 +18,6 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
 end
+=======
+gemspec
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04

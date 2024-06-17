@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto detect text files and perform LF normalization
 * text=auto
 
@@ -20,3 +21,15 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+=======
+assets/fonts/*                  linguist-vendored
+assets/js/main.min.js           linguist-vendored
+assets/js/lunr/*                linguist-vendored
+assets/js/plugins/*             linguist-vendored
+assets/js/vendor/*              linguist-vendored
+_sass/minimal-mistakes/vendor/* linguist-vendored
+CHANGELOG.md                    text merge=union
+docs/_docs/18-history.md        text merge=union
+
+*.md                            text
+>>>>>>> 93022d6432f277eb5d83677fa50e4120f1281b04
